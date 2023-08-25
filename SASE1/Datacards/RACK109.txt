@@ -1,0 +1,138 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [109]                     |
+|                                                      |
+|               XTD: [9]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                                
+| Crate Name: [duct(cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []
+| Signals: [0]
+
+| Position: [2]                                                                               
+| Crate Name: [C10901I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10390I]
+| Signal2: []
+| Signal3: [P10400I]
+| Signal4: []
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C10902I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10410I]
+| Signal2: []
+| Signal3: [P10420I]
+| Signal4: []
+                                 
+| Position: [6]                                                                                
+| Crate Name: [duct(cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []
+| Signals: [0]
+
+| Position: [7]                                                                               
+| Crate Name: [C10903I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10440I]
+| Signal2: []
+| Signal3: [P10450I]
+| Signal4: []
+                                       
+| Position: [11]                                                      
+| Crate Name: [C10905V]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]                                          
+| Signals: [4] 
+
+| Position: [17]                                                      
+| Crate Name: [C10908E]                                
+| Crate Size in units: [6]                                
+| Loop: [EPS]                                          
+| Signals: [4] 
+                                             
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [5]                         
+| Crate Name: [С10904G]                             
+| Crate Size in units: [2]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [7]                     
+| Crate Name: [C10907M]                             
+| Crate Size in units: [5]                       
+| Loop: [MOV]                                        
+| Signals: [4]  
+                               
+| Position: [12]                     
+| Crate Name: [C10906M]                              
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                     
+| Signals: [4] 
+                                   
+| Position: [23]                      
+| Crate Name: [Power Control]                            
+| Crate Size in units: [3]                            
+| Loop: []                                       
+| Signals: [0] 
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [8]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [10]                     
+| Crate Name: [Micro TCA]  
+| Info: [(PBLM)]                             
+| Crate Size in units: [3]                             
+| Loop: []                                     
+| Signals: [0] 
+                                   
+| Position: [13]                      
+| Crate Name: [IPC crate] 
+| Info: [(shimadzu cam)]                            
+| Crate Size in units: [5]                            
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [18]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [7]                       
+| Loop: []                                        
+| Signals: [0]  
+                                                                                             |
+|------------------------------------------------------|

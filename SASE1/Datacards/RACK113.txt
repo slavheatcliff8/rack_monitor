@@ -1,0 +1,73 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [113]                     |
+|                                                      |
+|               XTD: [9]                               |
+|                                                      |
+|          Number of Modules: [1]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+
+| Position: [2]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [7]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [9]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                         
+| Position: [10]                                                                               
+| Crate Name: [C11301I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P11110I]
+| Signal2: [P11120I]
+| Signal3: [P11130I]
+| Signal4: [P11140I] 
+
+| Position: [10]                                                                               
+| Crate Name: [C11302I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P12110I]
+| Signal2: [P12120I]
+| Signal3: [P12130I]
+| Signal4: [P12140I]  
+
+| Position: [14]                                                                               
+| Crate Name: [C11303V]                                
+| Crate Size in units: [6]                             
+| Loop: [VAC]                                         
+| Signals: [4]
+
+| Position: [24]                                                                               
+| Crate Name: [C11304G]                                
+| Crate Size in units: [2]                             
+| Loop: [VAC]                                         
+| Signals: [0]
+                                                                     
+|------------------------------------------------------|

@@ -1,0 +1,117 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [106]                     |
+|                                                      |
+|               XTD: [2]                               |
+|						       |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [42]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [3]                                                                               
+| Crate Name: [C10601I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10210I]
+| Signal2: []
+| Signal3: [P10220I]
+| Signal4: []
+                                        
+| Position: [3]                                                                               
+| Crate Name: [C10602I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10240I]
+| Signal2: []
+| Signal3: [P10250I]
+| Signal4: []
+                                 
+| Position: [7]                                                                                
+| Crate Name: [duct(cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []
+| Signals: [0]
+
+| Position: [8]                                                                               
+| Crate Name: [C10603I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10260I]
+| Signal2: []
+| Signal3: [P10270I]
+| Signal4: []
+                                       
+| Position: [12]                                                      
+| Crate Name: [C10605V]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]                                          
+| Signals: [4] 
+
+| Position: [18]                                                      
+| Crate Name: [C10606M]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]                                          
+| Signals: [4] 
+
+| Position: [24]                                                      
+| Crate Name: [C10607M]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]                                          
+| Signals: [4] 
+
+| Position: [30]                                                      
+| Crate Name: [C10608E]                                
+| Crate Size in units: [6]                                
+| Loop: [EPS]                                          
+| Signals: [4] 
+     
+| Position: [40]                                                      
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]                                              
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [PLC modules]                             
+| Crate Size in units: [1]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [7]                     
+| Crate Name: [Power Control]
+| Info: [(not in use)]                               
+| Crate Size in units: [3]                             
+| Loop: []                                     
+| Signals: [0] 
+                                   
+| Position: [32]                      
+| Crate Name: [Modular BPM unit]                            
+| Crate Size in units: [3]                            
+| Loop: []                                       
+| Signals: [0] 
+                                                                                             |
+|------------------------------------------------------|
+

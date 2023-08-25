@@ -1,0 +1,196 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [115]                     |
+|                                                      |
+|               XTD: [9]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                         
+| Position: [2]                                                                               
+| Crate Name: [C11501I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P12210I]
+| Signal2: [P12220I]
+| Signal3: []
+| Signal4: []             
+           
+
+| Position: [6]                                                                               
+| Crate Name: [Pump-Gauge Control]
+| Info: [(XGM 004 TPC)]                                 
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]          
+
+| Position: [9]                                                                               
+| Crate Name: [C11503V]                                
+| Crate Size in units: [5]                             
+| Loop: [VAC]                                          
+| Signals: [4] 
+
+| Position: [19]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [20]                                                                               
+| Crate Name: [Controller UPS(XGM)] 
+| Info: [(not installed)]                                
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0]
+
+| Position: [22]                                                                               
+| Crate Name: [Bypass-switch UPS(XGM)]        
+| Info: [(not installed)]                         
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [24]                                                                               
+| Crate Name: [Battery UPS(XGM)]     
+| Info: [(not installed)]                            
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0]  
+ 
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [2]                                                                               
+| Crate Name: [C31506T]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [C31508T]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [5]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [6]                                                                               
+| Crate Name: [C31507T]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [6]                                                                               
+| Crate Name: [C31509T]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [9]                                                                               
+| Crate Name: [C31505G]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [12]                                                                               
+| Crate Name: [C11502V]                                
+| Crate Size in units: [5]                             
+| Loop: [VAC]                                          
+| Signals: [4] 
+
+| Position: [17]                                                                               
+| Crate Name: [C11504E]                                
+| Crate Size in units: [5]                             
+| Loop: [EPS]                                          
+| Signals: [4]  
+
+| Position: [22]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+                                                  
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0]  
+               
+| Position: [7]                     
+| Crate Name: [micro TCA]                             
+| Crate Size in units: [9]                       
+| Loop: []                                        
+| Signals: [0]
+
+                      
+| Position: [16]                     
+| Crate Name: [cable management]                             
+| Crate Size in units: [1]                       
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [17]                     
+| Crate Name: [HV Control (XGM)]                             
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]    
+
+| Position: [22]                     
+| Crate Name: [Adam and Femto crates]
+| Info: [(XGM)]                              
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [25]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0]  
+                                                                                                                
+|------------------------------------------------------|

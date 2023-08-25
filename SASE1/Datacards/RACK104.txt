@@ -1,0 +1,136 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [104]                     |
+|                                                      |
+|               XTD: [2]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [42]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [TPC 350(1)]   
+| Info: [for P10125T]                                 
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]    
+
+| Position: [2]                                                                               
+| Crate Name: [TPC 350(2)] 
+| Info: [for P10127T]                                   
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [GaugeCntr] 
+| Info: [RVC300]                                   
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [5]                                                                               
+| Crate Name: [Magnetmeter2]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [8]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [9]                                                                               
+| Crate Name: [TPC 350(3)]   
+| Info: [for P10121T]                                 
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]    
+
+| Position: [9]                                                                               
+| Crate Name: [TPC 350(4)] 
+| Info: [for P10123T]                                   
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [9]                                                                               
+| Crate Name: [TPC 350(5)] 
+| Info: [for P10124T]                                   
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]   
+
+| Position: [12]                                                                               
+| Crate Name: [duct cooling]                                
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [14]                                                                               
+| Crate Name: [C10401V]                                
+| Crate Size in units: [6]                             
+| Loop: [VAC]                                          
+| Signals: [4]    
+
+| Position: [22]                                                                               
+| Crate Name: [BKF00621(PES)]                                
+| Crate Size in units: [6]                             
+| Loop: []                                          
+| Signals: [0]        
+                                       
+| Position: [40]                                                      
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]                                         
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [PLC modules]                             
+| Crate Size in units: [1]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [7]                     
+| Crate Name: [micro TCA (PES)]                              
+| Crate Size in units: [9]                             
+| Loop: [VAC]                                     
+| Signals: [0] 
+                                   
+| Position: [17]                      
+| Crate Name: [Iseg Mpod]                            
+| Crate Size in units: [8]                            
+| Loop: []                                       
+| Signals: [0] 
+                                   
+| Position: [25]                                                                               
+| Crate Name: [BKF00622(PES)]                                
+| Crate Size in units: [6]                             
+| Loop: []                                          
+| Signals: [0]         
+                                                                                            |
+|------------------------------------------------------|

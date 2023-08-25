@@ -1,0 +1,104 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [102]                     |
+|                                                      |
+|               XTD: [2]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [42]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [18]                                                                               
+| Crate Name: [C10206E]                                
+| Crate Size in units: [6]                             
+| Loop: [EPS]                                         
+| Signals: [4]
+                                        
+| Position: [24]                                                                               
+| Crate Name: [C10204M]                                
+| Crate Size in units: [6]                             
+| Loop: [MOV]                                          
+| Signals: [0]        
+                                 
+| Position: [30]                                                                                
+| Crate Name: [C10205M]                                
+| Crate Size in units: [6]                             
+| Loop: [MOV]
+| Standart: [no]                                           
+| Signals: [4] 
+| Signal1: [SA1_XTD2_SYS/SWITCH/BKF10005_G1_OK]
+| Signal2: [SA1_XTD2_SYS/SWITCH/BKF10005_G2_OK]
+| Signal3: [SA1_XTD2_SYS/SWITCH/BKF10005_G3_BALOK]
+| Signal4: [SA1_XTD2_SYS/SWITCH/BKF10005_G3_REDOK]
+                                       
+| Position: [40]                                                      
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]                                         
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [PLC modules]                             
+| Crate Size in units: [8]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [12]                     
+| Crate Name: [C10209T]                              
+| Crate Size in units: [3]                             
+| Loop: []                                     
+| Signals: [0] 
+                                   
+| Position: [12]                      
+| Crate Name: [C10210T]                            
+| Crate Size in units: [3]                            
+| Loop: []                                       
+| Signals: [0] 
+                                   
+| Position: [15]                                                 
+| Crate Name: [C10208T]                             
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]    
+                                     
+| Position: [15]                                                    
+| Crate Name: [C10207T]                                
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]    
+                                     
+| Position: [18]                                                     
+| Crate Name: [C10201G]                                
+| Crate Size in units: [2]                              
+| Loop: []                                          
+| Signals: [0]  
+                                       
+| Position: [21]                                                
+| Crate Name: [C10202V]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]                                          
+| Signals: [4]   
+                                     
+| Position: [28]                                                                    
+| Crate Name: [Power Network Adaptor]                  
+| Crate Size in units: [3]                           
+| Loop: []                                             
+| Signals: [0]                                                                                               |
+|------------------------------------------------------|

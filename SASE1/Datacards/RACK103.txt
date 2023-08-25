@@ -1,0 +1,124 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [103]                     |
+|                                                      |
+|               XTD: [2]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [42]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [Micro TCA]                                
+| Crate Size in units: [9]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [10]                                                                               
+| Crate Name: [cable management]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0]    
+
+| Position: [11]                                                                               
+| Crate Name: [HV Controls (XGM)]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [15]                                                                               
+| Crate Name: [cable management]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0]    
+
+| Position: [16]                                                                               
+| Crate Name: [cable management]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0]        
+
+| Position: [17]                                                                               
+| Crate Name: [ADAM, FemtoPS]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]    
+
+| Position: [32]                                                                               
+| Crate Name: [Controller UPS]   
+| Info: [(not installed)]                              
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0]   
+
+| Position: [34]                                                                               
+| Crate Name: [Controller UPS]
+| Info: [(not installed)]                                
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [36]                                                                               
+| Crate Name: [Controller UPS]     
+| Info: [(not installed)]                            
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0]  
+                                       
+| Position: [40]                                                      
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]                                         
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [PLC modules]                             
+| Crate Size in units: [2]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [15]                     
+| Crate Name: [C10301V]                              
+| Crate Size in units: [6]                             
+| Loop: [VAC]                                     
+| Signals: [4] 
+                                   
+| Position: [34]                      
+| Crate Name: [XGM002]     
+| Info: [(Pfeifer PVC300)]                         
+| Crate Size in units: [3]                            
+| Loop: []                                       
+| Signals: [0] 
+                                   
+| Position: [34]                                                 
+| Crate Name: [TCP350 - 1]  
+| Info: [for P10100T]                           
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]    
+                                     
+| Position: [34]                                                 
+| Crate Name: [TCP350 -2 ]    
+| Info: [for P10120T]                            
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]       
+                                                                                            |
+|------------------------------------------------------|

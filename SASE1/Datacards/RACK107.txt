@@ -1,0 +1,159 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [107]                     |
+|                                                      |
+|               XTD: [2]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [42]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [3]                                                                               
+| Crate Name: [C10709G]                                
+| Crate Size in units: [2]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [3]                                                                               
+| Crate Name: [C10710G]                                
+| Crate Size in units: [2]                             
+| Loop: []                                         
+| Signals: [0]
+               
+| Position: [7]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                         
+| Position: [8]                                                                               
+| Crate Name: [C10701I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10290I]
+| Signal2: []
+| Signal3: [P10300I]
+| Signal4: []
+
+| Position: [8]                                                                               
+| Crate Name: [C10702I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10310I]
+| Signal2: []
+| Signal3: [P10320I]
+| Signal4: []
+
+| Position: [12]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [13]                                                                               
+| Crate Name: [C10703I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10330I]
+| Signal2: [P10340I]
+| Signal3: [P10350I]
+| Signal4: [P10360I]                 
+    
+| Position: [17]                                                                               
+| Crate Name: [C10704V]                                
+| Crate Size in units: [5]                             
+| Loop: [VAC]                                          
+| Signals: [4]
+
+| Position: [22]                                                                               
+| Crate Name: [C10708E]                                
+| Crate Size in units: [5]                             
+| Loop: [EPS]                                          
+| Signals: [4] 
+
+| Position: [27]                                                                               
+| Crate Name: [C10705M]                                
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                          
+| Signals: [4]   
+
+| Position: [32]                                                                               
+| Crate Name: [BKF10003]                                
+| Crate Size in units: [5]                             
+| Loop: []                                          
+| Signals: [0]  
+
+
+| Position: [37]                                                                               
+| Crate Name: [BKF10002]                                
+| Crate Size in units: [4]  
+| Loop: [VAC]                                 
+| Standart: [no]                                           
+| Signals: [5] 
+| Signal1: [SA1_XTD2_SYS/SWITCH/BKF10002_G1_OK]
+| Signal2: [SA1_XTD2_SYS/SWITCH/BKF10002_G2_OK]
+| Signal3: [SA1_XTD2_SYS/SWITCH/BKF10002_G3_OK]
+| Signal4: [SA1_XTD2_SYS/SWITCH/BKF10002_G4_REDOK]
+| Signal5: [SA1_XTD2_SYS/SWITCH/BKF10002_G4_BALOK]
+                                                          
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [15]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [17]                                                                               
+| Crate Name: [MPOD mini]                                
+| Crate Size in units: [5]                             
+| Loop: []                                          
+| Signals: [0]
+                                   
+| Position: [22]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [35]                      
+| Crate Name: [LAN modules]                            
+| Crate Size in units: [1]                            
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [38]                      
+| Crate Name: [rack vibration measurement]                            
+| Crate Size in units: [2]                            
+| Loop: []                                       
+| Signals: [0] 
+                                   
+| Position: [40]                                                                               
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]         
+                                                                                            
+|------------------------------------------------------|

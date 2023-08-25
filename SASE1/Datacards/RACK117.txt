@@ -1,0 +1,180 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [117]                     |
+|                                                      |
+|               XTD: [9]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                         
+| Position: [2]                                                                               
+| Crate Name: [C11701I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P11290I]
+| Signal2: [P11300IN]
+| Signal3: [P11310I]
+| Signal4: [P11320I]
+
+| Position: [2]                                                                               
+| Crate Name: [C11702I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P11330IN]
+| Signal2: [P11340I]
+| Signal3: [P11350I]
+| Signal4: [P11360I]                       
+
+| Position: [6]                                                                               
+| Crate Name: [C11703V]                                
+| Crate Size in units: [6]                             
+| Loop: [VAC]                                          
+| Signals: [4] 
+
+| Position: [12]                                                                               
+| Crate Name: [C11707E]                                
+| Crate Size in units: [6]                             
+| Loop: [EPS]                                          
+| Signals: [4] 
+
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+                  
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [Power Supply 24 V (SPB)]                   
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [2]                                                                               
+| Crate Name: [Air duct]                                
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0] 
+
+
+| Position: [4]                                                                               
+| Crate Name: [C11704M IKC] 
+| Info: [(not installed)]                                
+| Crate Size in units: [5]                             
+| Loop: [VAC]                                          
+| Signals: [0] 
+
+| Position: [9]                                                                               
+| Crate Name: [C11705M  IKC]         
+| Info: [(not installed)]                        
+| Crate Size in units: [5]                             
+| Loop: [VAC]                                          
+| Signals: [0] 
+
+| Position: [14]                                                                               
+| Crate Name: [Fan + AirDuct]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [18]                                                                               
+| Crate Name: [C31709G]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [18]                                                                               
+| Crate Name: [C31710G]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [22]                                                                               
+| Crate Name: [Power LV ]            
+| Info: [24/48 for BKF (SPB)]                     
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+                                                  
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [8]                       
+| Loop: []                                        
+| Signals: [0]  
+               
+| Position: [10]                                                                               
+| Crate Name: [Power Supply 48V (SPB)]                     
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [11]                                                                               
+| Crate Name: [Air duct]                                
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0] 
+                      
+| Position: [13]                     
+| Crate Name: [BKF00022]                             
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [13]                     
+| Crate Name: [BKF00023]                             
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [18]                     
+| Crate Name: [BKF00156]                             
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [18]                     
+| Crate Name: [BKF00202]                             
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [23]                                                                               
+| Crate Name: [Fan + AirDuct]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]  
+                                                                                                                
+|------------------------------------------------------|

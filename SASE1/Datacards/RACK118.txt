@@ -1,0 +1,156 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [118]                     |
+|                                                      |
+|               XTD: [9]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                         
+| Position: [2]                                                                               
+| Crate Name: [C11801I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P12230I]
+| Signal2: []
+| Signal3: [P12240I]
+| Signal4: []
+
+| Position: [2]                                                                               
+| Crate Name: [C11802I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P12250I]
+| Signal2: [P12270I]
+| Signal3: [P12280I]
+| Signal4: [P12290I]  
+
+| Position: [6]                                                                               
+| Crate Name: [C11803I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P12260I]
+| Signal2: []
+| Signal3: []
+| Signal4: []                       
+
+| Position: [10]                                                                               
+| Crate Name: [C11811G]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [12]                                                                               
+| Crate Name: [C11810V]                                
+| Crate Size in units: [5]                             
+| Loop: [VAC]                                          
+| Signals: [4] 
+
+| Position: [17]                                                                               
+| Crate Name: [C11806M]        
+| Info: [(MONO)]                         
+| Crate Size in units: [6]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+                  
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [Power Supply]  
+| Info: [TDK Lambda]                               
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [3]                                                                               
+| Crate Name: [Picomotor driver]                                
+| Crate Size in units: [2]                             
+| Loop: []                                          
+| Signals: [0] 
+
+
+| Position: [6]                                                                               
+| Crate Name: [E500 Pi Piezo Actuator]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [9]                                                                               
+| Crate Name: [C11804M]  
+| Info: [(MONO)]                               
+| Crate Size in units: [6]                             
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [15]                                                                               
+| Crate Name: [C11805M]                                
+| Crate Size in units: [5]                             
+| Loop: []                                          
+| Signals: [0]  
+
+| Position: [20]                                                                               
+| Crate Name: [C11807M]                                
+| Crate Size in units: [6]                             
+| Loop: [MOV]                                          
+| Signals: [4]  
+                               
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [6]                       
+| Loop: []                                        
+| Signals: [0]  
+               
+| Position: [10]                                                                               
+| Crate Name: [C11809E]                                
+| Crate Size in units: [6]                             
+| Loop: [EPS]                                          
+| Signals: [4]  
+
+| Position: [19]                                                                               
+| Crate Name: [C11808M (FXE)]      
+| Info: [(FXE)]                           
+| Crate Size in units: [6]                             
+| Loop: []                                          
+| Signals: [0] 
+                                                                                                                            
+|------------------------------------------------------|

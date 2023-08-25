@@ -1,0 +1,116 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [108]                     |
+|                                                      |
+|               XTD: [9]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                         
+| Position: [2]                                                                               
+| Crate Name: [C10801I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P10370I]
+| Signal2: []
+| Signal3: [P10380I]
+| Signal4: []             
+    
+| Position: [6]                                                                               
+| Crate Name: [C10802V]                                
+| Crate Size in units: [6]                             
+| Loop: [VAC]                                          
+| Signals: [4]
+
+| Position: [12]                                                                               
+| Crate Name: [C10803E]                                
+| Crate Size in units: [6]                             
+| Loop: [EPS]                                          
+| Signals: [4] 
+
+| Position: [20]                                                                               
+| Crate Name: [C10804M]                                
+| Crate Size in units: [6]                             
+| Loop: [MOV]                                          
+| Standart: [no]                                           
+| Signals: [4] 
+| Signal1: [SA1_XTD9_SYS/SWITCH/C10804M_T1OK]
+| Signal2: [SA1_XTD9_SYS/SWITCH/C10804MT2OK]
+| Signal3: [SA1_XTD9_SYS/SWITCH/C10804M_T3BALOK]
+| Signal4: [SA1_XTD9_SYS/SWITCH/C10804M_T3REDOK]
+                                   
+                                                          
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [3]                     
+| Crate Name: [LAN modules]                             
+| Crate Size in units: [2]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [6]                                                                               
+| Crate Name: [Dell MC] 
+| Info: [R340 Server]                                
+| Crate Size in units: [1]                             
+| Loop: []                                          
+| Signals: [0]
+
+| Position: [7]                                                                               
+| Crate Name: [BKF10007]                                
+| Crate Size in units: [5]  
+| Loop: [VAC]                               
+| Standart: [no]                                           
+| Signals: [5] 
+| Signal1: [SA1_XTD9_SYS/SWITCH/BKF10007_G1_OK]
+| Signal2: [SA1_XTD9_SYS/SWITCH/BKF10007_G2_OK]
+| Signal3: [SA1_XTD9_SYS/SWITCH/BKF10007_G3_OK]
+| Signal4: [SA1_XTD9_SYS/SWITCH/BKF10007_G4_BALOK]
+| Signal5: [SA1_XTD9_SYS/SWITCH/BKF10007_G4_REDOK]
+                                   
+| Position: [12]                                                                               
+| Crate Name: [BKF10006]  
+| Info: [HIREX ELMO]                               
+| Crate Size in units: [5]      
+| Loop: []                                                                    
+| Signals: [0] 
+
+| Position: [17]                      
+| Crate Name: [Power supply] 
+| Info: [HIREX]                            
+| Crate Size in units: [6]                            
+| Loop: []                                       
+| Signals: [0] 
+                           
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                             
+| Loop: []                                          
+| Signals: [0]         
+                                                                                            
+|------------------------------------------------------|
