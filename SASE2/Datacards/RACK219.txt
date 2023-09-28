@@ -1,0 +1,182 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [219]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [C21905T]  
+| Info: [for ]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [1]                                                                               
+| Crate Name: [C21907T]  
+| Info: [for ]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]    
+
+| Position: [4]                                                                               
+| Crate Name: [C21906T]  
+| Info: [for ]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [4]                                                                               
+| Crate Name: [C21908T]  
+| Info: [for ]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]    
+
+| Position: [7]                                                                               
+| Crate Name: [C21910T]  
+| Info: [for ]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [7]                                                                               
+| Crate Name: [C21909T]  
+| Info: [for ]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [10]                                                                               
+| Crate Name: [C21904G]  
+| Info: [Aglient XGS 600]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [13]                                                                               
+| Crate Name: [Micro TCA]  
+| Info: [PBLM]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [16]                                                                               
+| Crate Name: [BKF00347] 
+| Info: [XTD6_PPU]                               
+| Crate Size in units: [5]                             
+| Loop: []                                       
+| Signals: [0]
+
+| Position: [16]                                                                               
+| Crate Name: [Empty]                                
+| Crate Size in units: [5]                             
+| Loop: []                                       
+| Signals: [0]
+
+| Position: [21]                                                                               
+| Crate Name: [cooling - Fan unit]                                
+| Crate Size in units: [1]                             
+| Loop: []                                       
+| Signals: [0]
+    
+| Position: [22]                                                                               
+| Crate Name: [Fuse Box]                             
+| Crate Size in units: [3]                             
+| Loop: []                                   
+| Signals: [0]
+
+| Position: [25]                                                                               
+| Crate Name: [Power Supply Dual 48 24V ]                             
+| Crate Size in units: [1]                             
+| Loop: []                                   
+| Signals: [0]                    
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [C21901V]   
+| Info: [XGM]                           
+| Crate Size in units: [5]                             
+| Loop: [VAC]          
+| Standart: [yes]                      
+| Signals: [0]    
+
+| Position: [6]                                                                               
+| Crate Name: [C21902V]   
+| Info: [Diff. Pumping]                           
+| Crate Size in units: [4]                             
+| Loop: [VAC]            
+| Standart: [yes]                            
+| Signals: [4]   
+
+| Position: [10]                                                                               
+| Crate Name: [C21903E]                              
+| Crate Size in units: [4]                             
+| Loop: [EPS]        
+| Standart: [yes]                                
+| Signals: [4] 
+
+| Position: [14]                                                                               
+| Crate Name: [cable management]                           
+| Crate Size in units: [2]                             
+| Loop: []                                   
+| Signals: [0]    
+
+
+| Position: [17]                                                                               
+| Crate Name: [HV controls]  
+| Info: [XGM]                               
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]  
+
+
+| Position: [20]                                                                               
+| Crate Name: [ADAM Femto Crate]  
+| Info: [XGM]                               
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]                            
+
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [network and cables]                            
+| Crate Size in units: [13]                             
+| Loop: []                                        
+| Signals: [0]     
+
+| Position: [17]                                                                               
+| Crate Name: [micro TCA]                             
+| Crate Size in units: [9]                             
+| Loop: []                                   
+| Signals: [0]    
+|------------------------------------------------------|
+
+

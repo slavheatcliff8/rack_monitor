@@ -1,0 +1,166 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [220]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                          
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [C22001I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P21190I]
+| Signal2: [P21200I]
+| Signal3: [P21210I]
+| Signal4: [P21220I]
+
+| Position: [2]                                                                               
+| Crate Name: [C22002I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P22240I]
+| Signal2: [P22280I]
+| Signal3: [P22290I]
+| Signal4: [P22390I]
+
+| Position: [6]                                                                               
+| Crate Name: [duct (cooling)]                          
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [7]                                                                               
+| Crate Name: [C22003I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P22250I]
+| Signal2: []
+| Signal3: [P22260I]
+| Signal4: []
+
+| Position: [7]                                                                               
+| Crate Name: [C22004I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P22270I]
+| Signal2: []
+| Signal3: []
+| Signal4: []
+
+| Position: [11]                                                                               
+| Crate Name: [C22005V]         
+| Info: [Attenuator,PBLM]                     
+| Crate Size in units: [5]                             
+| Loop: [VAC]
+| Standart: [yes]                                    
+| Signals: [4]                  
+
+| Position: [16]                                                                               
+| Crate Name: [C22006M]  
+| Info: [Slit, PBLM and imager]                           
+| Crate Size in units: [5]                             
+| Loop: [MOV]
+| Standart: [yes]                                    
+| Signals: [4]  
+
+| Position: [21]                                                                               
+| Crate Name: [C22007E]  
+| Info: [Attenuator,PBLM, Imager]                           
+| Crate Size in units: [5]                             
+| Loop: [EPS]
+| Standart: [yes]                                    
+| Signals: [4]  
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [network and cables]                            
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0]     
+
+| Position: [10]                                                                               
+| Crate Name: [power Supply 48V]                             
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [11]                                                                               
+| Crate Name: [power Supply 24V]                             
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [12]                                                                               
+| Crate Name: [Fuse Box]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [15]                                                                               
+| Crate Name: [BKF00345]  
+| Info: [Rods 1-3, PT100]                           
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [15]                                                                               
+| Crate Name: [BKF00348]  
+| Info: [Rods 4, PT100]                           
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [20]                                                                               
+| Crate Name: [Cooling - Fan unit]                             
+| Crate Size in units: [1]                             
+| Loop: []                                   
+| Signals: [0] 
+
+| Position: [21]                                                                               
+| Crate Name: [Cooling - Air in unit]                             
+| Crate Size in units: [2]                             
+| Loop: []                                   
+| Signals: [0] 
+
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                             
+| Crate Size in units: [3]                             
+| Loop: []                                   
+| Signals: [0]    
+|------------------------------------------------------|
+
+

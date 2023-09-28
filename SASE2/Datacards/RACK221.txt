@@ -1,0 +1,83 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [221]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                          
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [C22101I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P21230I]
+| Signal2: [P21240I]
+| Signal3: [P22400I]
+| Signal4: [P22410I]
+
+| Position: [6]                                                                               
+| Crate Name: [C22102V]                          
+| Crate Size in units: [5]                             
+| Loop: [VAC]
+| Standart: [yes]                                         
+| Signals: [4]  
+
+| Position: [16]                                                                               
+| Crate Name: [C22103M]     
+| Info: [PBLM]                     
+| Crate Size in units: [6]                             
+| Loop: [MOV]
+| Standart: [yes]                                         
+| Signals: [4]  
+
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]  
+
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [network and cables]                            
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0]     
+
+| Position: [7]                                                                               
+| Crate Name: [C22104E]  
+| Info: [PBLM]                           
+| Crate Size in units: [6]                             
+| Loop: [EPS]
+| Standart: [yes]                                         
+| Signals: [4]   
+|------------------------------------------------------|
+
+

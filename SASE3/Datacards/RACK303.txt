@@ -1,0 +1,173 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [303]                     |
+|                                                      |
+|               XTD: [10]                              |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [Micro TCA] 
+| Info: [XGM]                                  
+| Crate Size in units: [9]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [10]                                                                               
+| Crate Name: [cable management]                                  
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [11]                                                                               
+| Crate Name: [cable management]                                  
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [12]                                                                               
+| Crate Name: [duct (cooling)]                                  
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [13]                                                                               
+| Crate Name: [HV Controls]
+| Info: [(2x20kV),(1x6kV), XGM]                                      
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [16]                                                                               
+| Crate Name: [duct (cooling)]                                  
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [17]                                                                               
+| Crate Name: [cable management]                                  
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                     
+| Position: [18]                                                                               
+| Crate Name: [SRGI, Needle, PT100]
+| Info: [XGM]                                      
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]
+    
+                                       
+| Position: [21]                                                      
+| Crate Name: [C30301V]  
+| Info: [XGM]                                
+| Crate Size in units: [5]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [0]                                      
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                      
+| Crate Name: [C30302V]  
+| Info: [Beamline]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [0]   
+                      
+| Position: [7]                                                      
+| Crate Name: [C30303V]  
+| Info: [Beamline]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [0]   
+
+| Position: [13]                                                      
+| Crate Name: [C30304E]  
+| Info: [Beamline, Diff. pump]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [0] 
+              
+| Position: [19]                     
+| Crate Name: [duct (cooling)]                             
+| Crate Size in units: [2]                             
+| Loop: []                                     
+| Signals: [0] 
+                                   
+| Position: [21]                     
+| Crate Name: [Power Control]                             
+| Crate Size in units: [3]                             
+| Loop: []                                     
+| Signals: [0]                                              |
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                      
+| Crate Name: [fire unit]                                 
+| Crate Size in units: [1]                                
+| Loop: []                                         
+| Signals: [0]   
+
+| Position: [2]                                                      
+| Crate Name: [network modules]                                 
+| Crate Size in units: [5]                                
+| Loop: []                                         
+| Signals: [0]   
+                      
+| Position: [15]                                                      
+| Crate Name: [C30308T]  
+| Info: [Pfeif.350]                                
+| Crate Size in units: [3]                                
+| Loop: []                                           
+| Signals: [0]  
+
+| Position: [15]                                                      
+| Crate Name: [C30309T]  
+| Info: [Pfeif.350]                                
+| Crate Size in units: [3]                                
+| Loop: []                                           
+| Signals: [0]    
+
+| Position: [15]                                                      
+| Crate Name: [RVC300]  
+| Info: [XGM]                                
+| Crate Size in units: [3]                                
+| Loop: []                                           
+| Signals: [0] 
+
+| Position: [20]                                                      
+| Crate Name: [Controller UPS]  
+| Info: [UPS, XGM, not inst]                                
+| Crate Size in units: [2]                                
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [22]                                                      
+| Crate Name: [Bypass-Switch UPS]  
+| Info: [UPS, XGM,not inst]                                
+| Crate Size in units: [2]                                
+| Loop: []                                         
+| Signals: [0] 
+              
+| Position: [24]                                                      
+| Crate Name: [Battery UPS]  
+| Info: [UPS, XGM,not inst]                                
+| Crate Size in units: [2]                                
+| Loop: []                                         
+| Signals: [0]                                              |
+|------------------------------------------------------|

@@ -1,0 +1,117 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [308]                     |
+|                                                      |
+|               XTD: [10]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C30801I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P30460I]
+| Signal2: []
+| Signal3: [P30470I]
+| Signal4: []
+                                 
+| Position: [2]                                                                                
+| Crate Name: [C30802I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                           
+| Signals: [1] 
+| Signal1: [P30480I]
+| Signal2: []
+| Signal3: [P30490I]
+| Signal4: []
+                                       
+| Position: [6]                                                      
+| Crate Name: [C30803V]    
+| Info: []                                    
+| Crate Size in units: [5]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [11]                                                      
+| Crate Name: [C30804M]    
+| Info: [IMGPIII, IMGPII90]                                    
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4]               
+
+| Position: [17]                                                      
+| Crate Name: [C30805E]
+| Info: [MCP, Absorber, Imager]                                        
+| Crate Size in units: [6]                                
+| Loop: [EPS]                                          
+| Signals: [4]                                                   
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0] 
+
+| Position: [2]                         
+| Crate Name: [network units]                             
+| Crate Size in units: [5]                            
+| Loop: []                              
+| Signals: [0]  
+
+| Position: [7]                         
+| Crate Name: [cable management MCP]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+
+| Position: [8]                         
+| Crate Name: [BKF10014]   
+ Info: [MCP (power supplies)]                            
+| Crate Size in units: [4]                            
+| Loop: []                              
+| Signals: [0]   
+
+| Position: [12]                         
+| Crate Name: [cable management MCP]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+
+| Position: [13]                         
+| Crate Name: [BKF10013]   
+| Info: [MCP (motor controllers)]                          
+| Crate Size in units: [4]                            
+| Loop: []                              
+| Signals: [0] 
+                                                      
+| Position: [22]                                                                    
+| Crate Name: [Power Control]                  
+| Crate Size in units: [3]        
+| Loop: []                                                                 
+| Signals: [0]                                                                                               
+|------------------------------------------------------|
+

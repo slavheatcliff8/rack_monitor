@@ -1,0 +1,164 @@
+-------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [201]                     |
+|                                                      |
+|               XTD: [1]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [22]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                              
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C20101I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]                                    
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P20010I]
+| Signal2: [P20020I]
+| Signal3: []
+| Signal4: []      
+
+| Position: [2]                                                                               
+| Crate Name: [C20102I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]                              
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P20030I]
+| Signal2: []
+| Signal3: [P20040I]
+| Signal4: []      
+
+| Position: [6]                                                                               
+| Crate Name: [duct (cooling)]                              
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [7]                                                                               
+| Crate Name: [C20103F] 
+| Info: [(1/2)]                               
+| Crate Size in units: [3]                             
+| Loop: [VAC]                                      
+| Standart: [FASTVALVE_CONTR]                                    
+| Signals: [1]        
+| Signal1: [SA2_XTD1_VAC/SWITCH/V20010F_CTRL_READY]
+| Signal2: []
+| Signal3: []
+| Signal4: []         
+
+| Position: [10]                                                                               
+| Crate Name: [C20103F] 
+| Info: [(2/2)]                               
+| Crate Size in units: [3]                             
+| Loop: [VAC]                                      
+| Standart: [FASTVALVE_CONTR]                                    
+| Signals: [1]        
+| Signal1: [SA2_XTD1_VAC/SWITCH/V20010F_CTRL2_READY]
+| Signal2: []
+| Signal3: []
+| Signal4: []       
+                   
+| Position: [13]                                                                                
+| Crate Name: [C20104V]                             
+| Crate Size in units: [5]                             
+| Loop: [VAC]     
+| Standart: [yes]                                   
+| Signals: [4] 
+                                       
+| Position: [19]                                                      
+| Crate Name: [C20110G]                                  
+| Crate Size in units: [2]                                
+| Loop: []                                           
+| Signals: [0] 
+
+| Position: [22]                                                      
+| Crate Name: [Raritan(server)]                                   
+| Crate Size in units: [1]                                
+| Loop: []                                        
+| Signals: [0]                                                      
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [C20106M]    
+| Info: [SRA 4M + 4E]                          
+| Crate Size in units: [5]                            
+| Loop: [MOV]  
+| Standart: [yes]                            
+| Signals: [4]  
+
+| Position: [6]                         
+| Crate Name: [C20109E]    
+| Info: [SRA, KMONO, VAC]                          
+| Crate Size in units: [5]                            
+| Loop: [EPS]  
+| Standart: [yes]                            
+| Signals: [4]  
+             
+| Position: [11]                         
+| Crate Name: [C20108M]    
+| Info: [KMONO]                          
+| Crate Size in units: [4]                            
+| Loop: [MOV]  
+| Standart: [no]                            
+| Signals: [4] 
+| Signal1: [SA2_XTD1_SYS/SWITCH/BKF10012_G2_OK]
+| Signal2: [SA2_XTD1_SYS/SWITCH/BKF10012_G3_OK]
+| Signal3: [SA2_XTD1_SYS/SWITCH/BKF10012_G4_BALOK]
+| Signal4: [SA2_XTD1_SYS/SWITCH/BKF10012_G4_REDOK]   
+
+| Position: [15]                         
+| Crate Name: [C20107M]                             
+| Crate Size in units: [5]                            
+| Loop: [MOV]  
+| Standart: [no]                            
+| Signals: [5] 
+| Signal1: [SA2_XTD1_SYS/SWITCH/BKF10011_G1_OK]
+| Signal2: [SA2_XTD1_SYS/SWITCH/BKF10011_G2_OK]
+| Signal3: [SA2_XTD1_SYS/SWITCH/BKF10011_G3_OK]
+| Signal4: [SA2_XTD1_SYS/SWITCH/BKF10011_G4_BALOK]    
+| Signal5: [SA2_XTD1_SYS/SWITCH/BKF10011_G4_REDOK]   
+
+| Position: [20]                   
+| Crate Name: [Power Control]                            
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]                                                                                                  
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                                   
+| Position: [16]                      
+| Crate Name: [Micro TCA]               
+| Crate Size in units: [3]                            
+| Loop: []                                       
+| Signals: [0]     
+
+| Position: [20]                      
+| Crate Name: [Rack server]               
+| Crate Size in units: [1]                            
+| Loop: []                                       
+| Signals: [0]                                                                              
+|------------------------------------------------------|

@@ -1,0 +1,130 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [206]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------                                 
+| Position: [1]                                                                                
+| Crate Name: [duct (cooling)]                               
+| Crate Size in units: [1]                             
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [2]                                                                                
+| Crate Name: [C20601I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P20270I]
+| Signal2: []
+| Signal3: [P20280I]
+| Signal4: []      
+
+
+| Position: [2]                                                                                
+| Crate Name: [C20602I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P20290I]
+| Signal2: []
+| Signal3: [P20310I]
+| Signal4: []      
+
+
+| Position: [6]                                                                                
+| Crate Name: [duct (cooling)]                               
+| Crate Size in units: [1]                             
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [7]                                                                                
+| Crate Name: [C20603I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P20320I]
+| Signal2: []
+| Signal3: [P20330I]
+| Signal4: []      
+
+
+| Position: [11]                                                                                
+| Crate Name: [C20609G]                               
+| Crate Size in units: [2]                             
+| Loop: []                                      
+| Signals: [0] 
+                                       
+| Position: [13]                                                      
+| Crate Name: [C20604V]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [19]                                                      
+| Crate Name: [C20608E]  
+| Info: [Vacuum, PBLM]                                
+| Crate Size in units: [6]                                
+| Loop: [EPS]    
+| Standart: [yes]                                        
+| Signals: [4] 
+                                           
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                      
+| Crate Name: [C20605M]  
+| Info: [Mirror M1]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [7]                                                      
+| Crate Name: [C20606M]  
+| Info: [Mirror M2]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [13]                                                      
+| Crate Name: [C20607M]  
+| Info: [PBLM]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [23]                     
+| Crate Name: [Power Control]                           
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]                   
+                      
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [10]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]                                           
+|------------------------------------------------------|

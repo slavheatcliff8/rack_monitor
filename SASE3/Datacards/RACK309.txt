@@ -1,0 +1,140 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [309]                     |
+|                                                      |
+|               XTD: [10]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C30901I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P30500I]
+| Signal2: []
+| Signal3: [P30520I]
+| Signal4: []
+                                 
+| Position: [2]                                                                                
+| Crate Name: [C30902I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                           
+| Signals: [1] 
+| Signal1: [P30530I]
+| Signal2: []
+| Signal3: []
+| Signal4: []
+
+| Position: [6]                                                                               
+| Crate Name: [C30908G]                                
+| Crate Size in units: [2]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [8]                                                                               
+| Crate Name: [C30903V]                                
+| Crate Size in units: [5]                             
+| Loop: [VAC]       
+| Standart: [yes]                                    
+| Signals: [4]      
+
+| Position: [13]                                                                               
+| Crate Name: [C30904M]        
+| Info: [Mono]                        
+| Crate Size in units: [5]                             
+| Loop: [MOV]       
+| Standart: [yes]                                    
+| Signals: [4]    
+                                   
+| Position: [18]                                                                               
+| Crate Name: [NEG pump contr]       
+| Info: [not installed]                         
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]
+                               
+| Position: [23]                         
+| Crate Name: [Power Control]                             
+| Crate Size in units: [3]                            
+| Loop: []                              
+| Signals: [0]                                                    
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                      
+| Crate Name: [fire unit]                                        
+| Crate Size in units: [1]                                
+| Loop: []                                      
+| Signals: [0]  
+
+| Position: [2]                                                      
+| Crate Name: [network units]                                      
+| Crate Size in units: [4]                                
+| Loop: []                                            
+| Signals: [0]    
+
+| Position: [6]                                                      
+| Crate Name: [piezo driver crate]                                      
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0]   
+
+| Position: [8]                                                      
+| Crate Name: [piezo encoder crate]                                      
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0]     
+
+| Position: [10]                                                      
+| Crate Name: [piezo encoder crate]                                      
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0]    
+
+| Position: [12]                                                      
+| Crate Name: [Translation crate]                                      
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0]
+
+| Position: [13]                                                      
+| Crate Name: [C30909G]    
+| Info: [TPG300]                                    
+| Crate Size in units: [3]                                
+| Loop: []                                            
+| Signals: [0]   
+
+| Position: [13]                                                      
+| Crate Name: [TurboPContr]    
+| Info: [TPC350]                                    
+| Crate Size in units: [3]                                
+| Loop: []                                            
+| Signals: [0]   
+
+| Position: [17]                         
+| Crate Name: [C30907E]
+| Info: [Mono]                             
+| Crate Size in units: [6]                            
+| Loop: [EPS]                              
+| Signals: [4]                                                                               
+|------------------------------------------------------|

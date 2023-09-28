@@ -1,0 +1,122 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [217]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [C21702M]  
+| Info: [not installed HED]                             
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                         
+| Signals: [0]  
+
+| Position: [6]                                                                               
+| Crate Name: [C21703M]  
+| Info: [not installed HED]                              
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                        
+| Signals: [0]     
+
+| Position: [11]                                                                               
+| Crate Name: [C21704M]  
+| Info: [not installed HED]                              
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                        
+| Signals: [0]
+
+| Position: [16]                                                                               
+| Crate Name: [C21709E]  
+| Info: [not installed HED]                              
+| Crate Size in units: [5]                             
+| Loop: [EPS]                                        
+| Signals: [4]
+
+| Position: [21]                                                                               
+| Crate Name: [C21605M]  
+| Info: [Imager 6 and 7]                              
+| Crate Size in units: [5]                             
+| Loop: [MOV] 
+| Standart: [yes]                                        
+| Signals: [4]                         
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [C21706M]  
+| Info: [not installed HED]                             
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                         
+| Signals: [0]  
+
+| Position: [6]                                                                               
+| Crate Name: [C21707M]  
+| Info: [not installed HED]                              
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                        
+| Signals: [0]     
+
+| Position: [11]                                                                               
+| Crate Name: [C21708M]  
+| Info: [not installed HED]                              
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                        
+| Signals: [0]
+
+| Position: [16]                                                                               
+| Crate Name: [C21701V]  
+| Info: [not installed HED]                              
+| Crate Size in units: [5]                             
+| Loop: [VAC]                                        
+| Signals: [4]
+
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0]
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [network and cables]                            
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0]     
+
+| Position: [8]                                                                               
+| Crate Name: [Piezo controller]  
+| Info: [not installed]                              
+| Crate Size in units: [3]                             
+| Loop: []                                        
+| Signals: [0]
+
+| Position: [16]                                                                               
+| Crate Name: [Interferometer]  
+| Info: [not installed]                              
+| Crate Size in units: [3]                             
+| Loop: []                                        
+| Signals: [0]
+|------------------------------------------------------|
+
+

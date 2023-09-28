@@ -1,0 +1,172 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [312]                     |
+|                                                      |
+|               XTD: [10]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C31201I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P30640I]
+| Signal2: [P30650I]
+| Signal3: [P30660I]
+| Signal4: [P30670I]
+                                 
+| Position: [2]                                                                                
+| Crate Name: [C31202I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                           
+| Signals: [1] 
+| Signal1: [P30680I]
+| Signal2: []
+| Signal3: [P30690I]
+| Signal4: []
+
+| Position: [6]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [7]                                                                               
+| Crate Name: [C31203I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P30710I]
+| Signal2: []
+| Signal3: [P30720I]
+| Signal4: []
+                                 
+| Position: [7]                                                                                
+| Crate Name: [C31204I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                           
+| Signals: [1] 
+| Signal1: [P30740I]
+| Signal2: []
+| Signal3: [P30750I]
+| Signal4: []
+
+| Position: [11]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [12]                                                                               
+| Crate Name: [C31213I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P30735I]
+| Signal2: []
+| Signal3: []
+| Signal4: []
+
+| Position: [16]                                                                               
+| Crate Name: [C31205V] 
+| Info: [Beamline]                               
+| Crate Size in units: [5]                             
+| Loop: [VAC] 
+| Standart: [yes]                                        
+| Signals: [4]     
+
+| Position: [21]                                                                               
+| Crate Name: [C31206M] 
+| Info: [Beamline]                               
+| Crate Size in units: [5]                             
+| Loop: [MOV] 
+| Standart: [yes]                                        
+| Signals: [4]                                                  
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [2]                                                                               
+| Crate Name: [C31211G]                                
+| Crate Size in units: [2]                             
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [2]                                                                               
+| Crate Name: [C31212G]                                
+| Crate Size in units: [2]                             
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [4]                                                                               
+| Crate Name: [C31207M] 
+| Info: [Mirror 5]                               
+| Crate Size in units: [6]                             
+| Loop: [MOV] 
+| Standart: [yes]                                        
+| Signals: [4]     
+
+| Position: [10]                                                                               
+| Crate Name: [C31208M]                                
+| Crate Size in units: [5]                             
+| Loop: [MOV] 
+| Standart: [yes]                                        
+| Signals: [4]         
+
+| Position: [15]                                                                               
+| Crate Name: [C31209E]   
+| Info: [PBLM, Mirror, VAC]                              
+| Crate Size in units: [5]                             
+| Loop: [EPS] 
+| Standart: [yes]                                        
+| Signals: [4]  
+
+| Position: [21]                                                                               
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                             
+| Loop: []                                       
+| Signals: [0]                                       
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [2]                                                                               
+| Crate Name: [network units]                                
+| Crate Size in units: [17]                             
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [21]                                                                               
+| Crate Name: [C31210M]                               
+| Crate Size in units: [5]                             
+| Loop: [MOV]                                       
+| Signals: [4]                                     
+|------------------------------------------------------|
+

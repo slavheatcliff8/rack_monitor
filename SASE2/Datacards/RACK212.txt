@@ -1,0 +1,64 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [212]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C21201I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P21060I]
+| Signal2: [P21070I]
+| Signal3: [P21080I]
+| Signal4: [P21090I]
+                                 
+| Position: [2]                                                                                
+| Crate Name: [C21202I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                           
+| Signals: [1] 
+| Signal1: [P22060I]
+| Signal2: [P22070I]
+| Signal3: [P22080I]
+| Signal4: [P22090I]
+
+| Position: [6]                                                                               
+| Crate Name: [C21203V]                                
+| Crate Size in units: [5]                             
+| Loop: [VAC] 
+| Standart: [yes]                                        
+| Signals: [4]                                                       
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]                                            
+|------------------------------------------------------|
+
+

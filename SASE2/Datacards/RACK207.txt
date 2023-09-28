@@ -1,0 +1,123 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [207]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------                                 
+| Position: [1]                                                                                
+| Crate Name: [duct (cooling)]                               
+| Crate Size in units: [1]                             
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [2]                                                                                
+| Crate Name: [C20701I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P20340I]
+| Signal2: []
+| Signal3: [P20360I]
+| Signal4: [] 
+
+| Position: [2]                                                                                
+| Crate Name: [C20702I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P20370I]
+| Signal2: []
+| Signal3: [P20380I]
+| Signal4: [] 
+
+| Position: [6]                                                                                
+| Crate Name: [C20707G]                               
+| Crate Size in units: [2]                             
+| Loop: []                                     
+| Signals: [0] 
+
+| Position: [10]                                                                                
+| Crate Name: [C20703V]                               
+| Crate Size in units: [6]                             
+| Loop: [VAC]
+| Standart: [yes]                                       
+| Signals: [4] 
+
+| Position: [16]                                                                                
+| Crate Name: [C20705E]                               
+| Crate Size in units: [5]                             
+| Loop: [EPS]
+| Standart: [yes]                                       
+| Signals: [4] 
+
+| Position: [21]                                                                                
+| Crate Name: [C20704M]                               
+| Crate Size in units: [5]                             
+| Loop: [MOV]
+| Standart: [yes]                                       
+| Signals: [4] 
+                                                    
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                      
+| Crate Name: [BKF ...]                               
+| Crate Size in units: [5]                                
+| Loop: []                                            
+| Signals: [0] 
+
+| Position: [6]                                                      
+| Crate Name: [BKF10008]                               
+| Crate Size in units: [4]                                
+| Loop: [EPS]     
+| Standart: [no]                                       
+| Signals: [5] 
+| Signal1: [SA2_XTD6_SYS/SWITCH/BKF10008_G1_OK]
+| Signal2: [SA2_XTD6_SYS/SWITCH/BKF10008_G2_OK]
+| Signal3: [SA2_XTD6_SYS/SWITCH/BKF10008_G3_OK]
+| Signal4: [SA2_XTD6_SYS/SWITCH/BKF10008_G4_BALOK] 
+| Signal5: [SA2_XTD6_SYS/SWITCH/BKF10008_G4_REDOK] 
+
+| Position: [23]                     
+| Crate Name: [Power Control]                           
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]                   
+                      
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [10]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]               
+
+| Position: [14]                         
+| Crate Name: [MPOD mini]                             
+| Crate Size in units: [5]                            
+| Loop: []                              
+| Signals: [0]       
+
+| Position: [20]                         
+| Crate Name: [micro TCA]
+| Info: [MCP + PBLM]                             
+| Crate Size in units: [5]                            
+| Loop: []                              
+| Signals: [0]                           
+|------------------------------------------------------|

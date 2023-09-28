@@ -1,0 +1,155 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [306]                     |
+|                                                      |
+|               XTD: [10]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------                                 
+| Position: [1]                                                                                
+| Crate Name: [duct (cooling)]                               
+| Crate Size in units: [1]                             
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [2]                                                                                
+| Crate Name: [C30601I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P30380I]
+| Signal2: []
+| Signal3: [P30390I]
+| Signal4: []      
+
+
+| Position: [2]                                                                                
+| Crate Name: [C30602I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P30400I]
+| Signal2: []
+| Signal3: [P30410I]
+| Signal4: []      
+
+| Position: [6]                                                                                
+| Crate Name: [duct (cooling)]                               
+| Crate Size in units: [1]                             
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [7]                                                                                
+| Crate Name: [C30603I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P30430I]
+| Signal2: []
+| Signal3: [P30440I]
+| Signal4: []    
+      
+
+
+| Position: [7]                                                                                
+| Crate Name: [C30611I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P30395I]
+| Signal2: []
+| Signal3: []
+| Signal4: []    
+
+| Position: [11]                                                                                
+| Crate Name: [C30610G]                               
+| Crate Size in units: [2]                             
+| Loop: []                                      
+| Signals: [0] 
+                                       
+| Position: [13]                                                      
+| Crate Name: [C30604V]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+                                           
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                      
+| Crate Name: [C30605M]  
+| Info: [Mirror M1]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [7]                                                      
+| Crate Name: [C30606M]  
+| Info: [Mirror M2]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [13]                                                      
+| Crate Name: [C30609E]  
+| Info: [Mirror, VAC, Imager]                                
+| Crate Size in units: [6]                                
+| Loop: [EPS]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [20]                     
+| Crate Name: [Power Control]                           
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]                   
+                      
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]        
+
+| Position: [2]                         
+| Crate Name: [network units]                             
+| Crate Size in units: [5]                            
+| Loop: []                              
+| Signals: [0]                          
+
+| Position: [7]                                                      
+| Crate Name: [C30607M]  
+| Info: [Imager]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4]     
+
+| Position: [13]                                                      
+| Crate Name: [C30608M]  
+| Info: [Alignment Laser]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4]         
+|------------------------------------------------------|

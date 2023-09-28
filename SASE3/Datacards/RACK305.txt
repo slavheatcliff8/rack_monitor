@@ -1,0 +1,131 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [305]                     |
+|                                                      |
+|               XTD: [10]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------                                 
+| Position: [1]                                                                                
+| Crate Name: [duct (cooling)]                               
+| Crate Size in units: [1]                             
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [2]                                                                                
+| Crate Name: [C30501I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P30240I]
+| Signal2: []
+| Signal3: [P30370I]
+| Signal4: [] 
+     
+| Position: [6]                                                      
+| Crate Name: [C30502V]  
+| Info: [GATT]                                
+| Crate Size in units: [5]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [11]                                                      
+| Crate Name: [C30503V]  
+| Info: [GATT]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [17]                                                      
+| Crate Name: [C30505V]  
+| Info: [GATT/ C30507V]                                
+| Crate Size in units: [5]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+                                       
+| Position: [22]                                                      
+| Crate Name: [Power Control]                                
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0]                                          
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                           
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [network units]                          
+| Crate Size in units: [2]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [4]                                                      
+| Crate Name: [C30508V]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [10]                     
+| Crate Name: [Turbo Pump Contr]     
+| Info: [Pfeiff. 350, for P30300T]                         
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [14]                     
+| Crate Name: [C30511G]     
+| Info: [XGS600]                         
+| Crate Size in units: [2]                       
+| Loop: []                                        
+| Signals: [0]         
+
+| Position: [14]                     
+| Crate Name: [C30512G]     
+| Info: [XGS600]                         
+| Crate Size in units: [2]                       
+| Loop: []                                        
+| Signals: [0]          
+
+| Position: [16]                     
+| Crate Name: [C30513G]     
+| Info: [XGS600]                         
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [19]                                                      
+| Crate Name: [C30504E]                                
+| Crate Size in units: [6]                                
+| Loop: [EPS]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [26]                                                      
+| Crate Name: [C30506GATT]     
+| Info: [out of rack, no sign]                        
+| Crate Size in units: [6]                                
+| Loop: []                                        
+| Signals: [0]                      
+|------------------------------------------------------|
+
+

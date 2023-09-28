@@ -1,0 +1,97 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [210]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C21001I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P20540I]
+| Signal2: []
+| Signal3: [P20550I]
+| Signal4: []
+                                 
+| Position: [2]                                                                                
+| Crate Name: [C21002I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                           
+| Signals: [1] 
+| Signal1: [P20560I]
+| Signal2: []
+| Signal3: [P20570I]
+| Signal4: []
+
+| Position: [6]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [7]                                                                               
+| Crate Name: [C21003I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P20580I]
+| Signal2: []
+| Signal3: [P20590I]
+| Signal4: []
+                                 
+| Position: [7]                                                                                
+| Crate Name: [C21004I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                           
+| Signals: [1] 
+| Signal1: [P21010I]
+| Signal2: [P21020I]
+| Signal3: [P22010I]
+| Signal4: [P22020I]
+
+| Position: [11]                                                                               
+| Crate Name: [C21005V]                                
+| Crate Size in units: [6]                             
+| Loop: [VAC]                                          
+| Signals: [4]                                                        
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                      
+| Crate Name: [fire unit]                                        
+| Crate Size in units: [1]                                
+| Loop: []                                      
+| Signals: [0]    
+
+| Position: [2]                                                      
+| Crate Name: [LAN modules]    
+| Info: [need to be clarified]                                    
+| Crate Size in units: [10]                                
+| Loop: []                                            
+| Signals: [0]                                                                                
+|------------------------------------------------------|
+

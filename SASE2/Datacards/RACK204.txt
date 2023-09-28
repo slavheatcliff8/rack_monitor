@@ -1,0 +1,89 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [204]                     |
+|                                                      |
+|               XTD: [1]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [42]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------                                 
+| Position: [9]                                                                                
+| Crate Name: [C20405G]   
+| Info: [MKS Controller]                              
+| Crate Size in units: [2]                             
+| Loop: []                                       
+| Signals: [0] 
+                                       
+| Position: [15]                                                      
+| Crate Name: [C20401I]                                
+| Crate Size in units: [4]                                
+| Loop: [VAC]    
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]        
+| Signal1: [P20200I]
+| Signal2: [P20210I]
+| Signal3: [P20215I]
+| Signal4: [P20220I]      
+
+| Position: [19]                                                      
+| Crate Name: [C20402V]  
+| Info: []                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [25]                                                      
+| Crate Name: [C20404E]  
+| Info: []                                
+| Crate Size in units: [6]                                
+| Loop: [EPS]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [31]                                                      
+| Crate Name: [C20403M]   
+| Info: [FEL-Imager]                                  
+| Crate Size in units: [6]                                
+| Loop: [MOV]                                        
+| Signals: [4]            
+
+| Position: [38]                                                      
+| Crate Name: [Power Control]   
+| Info: []                                  
+| Crate Size in units: [3]                                
+| Loop: []                                        
+| Signals: [0]              
+                                         
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit (cooling)]    
+| Info: []                          
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [19]                     
+| Crate Name: [cable management]                      
+| Crate Size in units: [2]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [21]                     
+| Crate Name: [Modular BPM]                           
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]                                         
+|------------------------------------------------------|

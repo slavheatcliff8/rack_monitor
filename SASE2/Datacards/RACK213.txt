@@ -1,0 +1,53 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [213]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C21301I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P21100I]
+| Signal2: [P21110I]
+| Signal3: [P22100I]
+| Signal4: [P22110I]
+
+| Position: [6]                                                                               
+| Crate Name: [C21302V]                                
+| Crate Size in units: [6]                             
+| Loop: [VAC] 
+| Standart: [yes]                                        
+| Signals: [4]                                                       
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]                                            
+|------------------------------------------------------|
+
+

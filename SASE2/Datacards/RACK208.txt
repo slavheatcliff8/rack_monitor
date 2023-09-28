@@ -1,0 +1,116 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [208]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C20801I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]       
+| Standart: [IPUMP_CONTR]                                    
+| Signals: [1]        
+| Signal1: [P20390I]
+| Signal2: [P20400I]
+| Signal3: [P20420I]
+| Signal4: []
+                                 
+| Position: [2]                                                                                
+| Crate Name: [C20802I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                           
+| Signals: [1] 
+| Signal1: [P20410I]
+| Signal2: []
+| Signal3: [P20430I]
+| Signal4: []
+                                       
+| Position: [6]                                                      
+| Crate Name: [C20803V]    
+| Info: []                                    
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [15]                                                      
+| Crate Name: [WP74 - HIREX]   
+| Info: [Power distribution]                               
+| Crate Size in units: [3]                                
+| Loop: []                                       
+| Signals: [0]               
+
+| Position: [21]                                                      
+| Crate Name: [C20804E]
+| Info: [(HIREX)]                                        
+| Crate Size in units: [5]                                
+| Loop: [EPS]                                          
+| Signals: [4]                                                   
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0] 
+
+| Position: [9]                         
+| Crate Name: [power supply 24V]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+
+| Position: [10]                         
+| Crate Name: [power supply 48V]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+
+| Position: [11]                         
+| Crate Name: [Fuse-Box]                             
+| Crate Size in units: [3]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [15]                     
+| Crate Name: [BKF00517]
+| Info: [XPD]                             
+| Crate Size in units: [5]                       
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [15]                     
+| Crate Name: [BKF00520]
+| Info: [XPD]                             
+| Crate Size in units: [5]                       
+| Loop: []                                          
+| Signals: [0] 
+                                     
+| Position: [20]                                                                    
+| Crate Name: [Cooling - Fan unit]                  
+| Crate Size in units: [1]        
+| Loop: []                                                                 
+| Signals: [0]                                                                                               
+|------------------------------------------------------|
+

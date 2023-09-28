@@ -39,44 +39,41 @@ window = sg.Window('RACK MONITOR', layout)
 while True:
     event, values = window.read()
     text = values[1][0]
-    print (values)
-    print (values[1][0])
     if event =='Submit':
-        print ("ja voshla", text, values[1])
         if text == str('SASE1'):
             sase = int("1")
-            print ("pomenyala sase ", sase)
-        if values[1] == 'SASE2':
+        if values[1][0] == 'SASE2':
             sase = int("2")
-            print ("pomenyala sase ", sase)
-        if values[1] == 'SASE3':
+        if values[1][0] == 'SASE3':
             sase = int("3")
-            print ("pomenyala sase", sase)
         if values[2][0] == "Small rack monitor":
             mode = 1
-            print ("pomenyala mode ", mode)
         if values[2][0] == "Overview Monitor":
             mode = 2
-            print ("pomenyala mode ", mode)
         if values[2][0] == "Small + Overview monitors":
             mode = 3
-            print ("pomenyala mode  ", mode)
-        numbers = values["RACKs"].split(',')
+        if values["RACKs"]!="all":  
+            numbers = values["RACKs"].split(',')
+        else: 
+            files = os.listdir(path=f"SASE{sase}\Datacards") 
+            numbers = []
+            for datacard in files:
+                if "RACK" in datacard:
+                    start_index = datacard.index("RACK") + len("RACK")
+                    end_index = datacard.index(".txt")
+                    numbers.append(datacard[start_index:end_index])
+        numbers.sort()
         version = values["version"]
-        print (version)
-        print (numbers)
         break
     if event == sg.WIN_CLOSED or event == 'Cancel': # if user closes window or clicks cancel
         break
-    print('You entered ', values[0])
-print ('qweqwe===============',mode, sase)
+
 window.close()
-print (window)
 sase_vector = []
 link_for_rack = []
 for rack_name in numbers:
     #reading the datacards from the list: 
-    device_vectors, rack_vector, device_with_info = datacard_reader.reader_data_cards(rack_name)
+    device_vectors, rack_vector, device_with_info = datacard_reader.reader_data_cards(rack_name,sase)
     # check, if there are two or more devices with one position 
     grouped_vectors = datacard_reader.group_devices_by_position(device_vectors)
     print ("##########################################################################")
@@ -88,6 +85,7 @@ for rack_name in numbers:
     print ("/////////////////////////////Double devices//////////////////////////////")
     print ("/////////////////////////","                      ","////////////////////////")
     for group in grouped_vectors: 
+        group[2].sort()
         print ("/////////////////////////",group[2],"////////////////////////") 
     # making a small rack monitors for all rack in the list + links for a overview monitor     
     
@@ -98,4 +96,7 @@ for rack_name in numbers:
  # maiking an overview scene 
 if (mode == 2) or (mode == 3):
     overview_maker.scene_maker(sase_vector,link_for_rack,sase,version)
+print ("##########################################################################")
+print ("///////////////////////////////////DONE///////////////////////////////////")
+print ("##########################################################################")
 

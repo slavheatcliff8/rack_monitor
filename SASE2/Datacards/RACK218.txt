@@ -1,0 +1,224 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [218]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+
+| Position: [1]                                                                               
+| Crate Name: [TDK Lambda]  
+| Info: [power supply]                             
+| Crate Size in units: [2]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [6]                                                                               
+| Crate Name: [Picomotor driver]                              
+| Crate Size in units: [3]                             
+| Loop: []                                        
+| Signals: [0]     
+
+| Position: [6]                                                                               
+| Crate Name: [Pi Piezo ]  
+| Info: [actuator controller]                              
+| Crate Size in units: [3]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [9]                                                                               
+| Crate Name: [C21801V]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [yes]                                         
+| Signals: [4]
+
+| Position: [13]                                                                               
+| Crate Name: [C21804E]                                
+| Crate Size in units: [4]                             
+| Loop: [EPS]
+| Standart: [yes]                                         
+| Signals: [4]
+
+| Position: [21]                                                                               
+| Crate Name: [C21802G]                             
+| Crate Size in units: [2]                             
+| Loop: []                                   
+| Signals: [0]     
+    
+| Position: [21]                                                                               
+| Crate Name: [C21805G]                             
+| Crate Size in units: [2]                             
+| Loop: []                                   
+| Signals: [0]
+
+| Position: [23]                                                                               
+| Crate Name: [Power Controller]                             
+| Crate Size in units: [3]                             
+| Loop: []                                   
+| Signals: [0]                    
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [Power Supply 48V]                             
+| Crate Size in units: [1]                             
+| Loop: []                                   
+| Signals: [0]    
+
+| Position: [2]                                                                               
+| Crate Name: [Power Supply 24V]                             
+| Crate Size in units: [1]                             
+| Loop: []                                   
+| Signals: [0]    
+
+| Position: [3]                                                                               
+| Crate Name: [Fuse Box]                           
+| Crate Size in units: [3]                             
+| Loop: []                                   
+| Signals: [0]    
+
+
+| Position: [6]                                                                               
+| Crate Name: [BKF00285]  
+| Info: [lens 1-4]                               
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+
+| Position: [6]                                                                               
+| Crate Name: [BKF00286]  
+| Info: [lens 5-8]                               
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [11]                                                                               
+| Crate Name: [BKF00287]  
+| Info: [lens 9-chamY]                               
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [11]                                                                               
+| Crate Name: [BKF00288]  
+| Info: [PT100]                               
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [16]                                                                               
+| Crate Name: [BKF00346]  
+| Info: [HRMONO]                               
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [11]                                                                               
+| Crate Name: [EMPTY]  
+| Info: []                               
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [21]                                                                               
+| Crate Name: [Cooling Fan unit]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [22]                                                                               
+| Crate Name: [Cooling Air unit]                                
+| Crate Size in units: [2]                             
+| Loop: []                                         
+| Signals: [0]
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [2]                                                                               
+| Crate Name: [network and cables]                            
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0]     
+
+| Position: [8]                                                                               
+| Crate Name: [Power Supply 48V]                             
+| Crate Size in units: [1]                             
+| Loop: []                                   
+| Signals: [0]    
+
+| Position: [9]                                                                               
+| Crate Name: [Power Supply 24V]                             
+| Crate Size in units: [1]                             
+| Loop: []                                   
+| Signals: [0]    
+
+| Position: [10]                                                                               
+| Crate Name: [Fuse Box]                           
+| Crate Size in units: [3]                             
+| Loop: []                                   
+| Signals: [0]    
+
+
+| Position: [13]                                                                               
+| Crate Name: [BKF00487]  
+| Info: [HED Mono]                               
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+
+| Position: [13]                                                                               
+| Crate Name: [BKF00488]  
+| Info: [HED Mono]                                
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [18]                                                                               
+| Crate Name: [BKF00489]  
+| Info: [HED Mono 2]                                    
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [18]                                                                               
+| Crate Name: [BKF00490]  
+| Info: [HED Mono 2]                                    
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]  
+
+| Position: [23]                                                                               
+| Crate Name: [Cooling Fan unit]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [24]                                                                               
+| Crate Name: [Cooling Air unit]                                
+| Crate Size in units: [2]                             
+| Loop: []                                         
+| Signals: [0]
+|------------------------------------------------------|
+
+

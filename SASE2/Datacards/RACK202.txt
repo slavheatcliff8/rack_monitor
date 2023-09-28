@@ -1,0 +1,147 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [202]                     |
+|                                                      |
+|               XTD: [1]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [22]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [Micro TCA]
+| Info: [XGM]                                
+| Crate Size in units: [9]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [10]                                                                               
+| Crate Name: [Cable management]                                
+| Crate Size in units: [2]                             
+| Loop: []                                           
+| Signals: [0]        
+                                 
+| Position: [12]                                                                                
+| Crate Name: [HV Controls]   
+| Info: [2x20kV, 1x6kV,(XGM)]                              
+| Crate Size in units: [4]                             
+| Loop: []                                       
+| Signals: [0] 
+                                       
+| Position: [6]                                                      
+| Crate Name: [C20202V]  
+| Info: [Diff. Pumping]                                
+| Crate Size in units: [4]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [0] 
+
+| Position: [20]                                                      
+| Crate Name: [Power Supplier]                                   
+| Crate Size in units: [3]                                
+| Loop: []                                        
+| Signals: [0]               
+                                         
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [duct(cooling)]                 
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [2]                     
+| Crate Name: [C20205T] 
+| Info: [Pfeiffer TCP350]                            
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [2]                     
+| Crate Name: [C20207T] 
+| Info: [Pfeiffer TCP350]                            
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [5]                     
+| Crate Name: [C20206T] 
+| Info: [Pfeiffer TCP350]                            
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [5]                     
+| Crate Name: [C20208T] 
+| Info: [Pfeiffer TCP350]                            
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [8]                     
+| Crate Name: [C20204G]   
+| Info: [Aglient XGS600]                           
+| Crate Size in units: [3]                             
+| Loop: []                                     
+| Signals: [0] 
+                                   
+| Position: [11]                      
+| Crate Name: [C20201V]
+| Info: [Diff. Pumping]                            
+| Crate Size in units: [4]                            
+| Loop: [VAC]                                       
+| Signals: [4] 
+
+| Position: [15]                      
+| Crate Name: [C20203E]
+| Info: [Diff. Pumping, XGM]                            
+| Crate Size in units: [5]                            
+| Loop: [VAC]                                       
+| Signals: [4] 
+                                     
+| Position: [20]                     
+| Crate Name: [C20209T] 
+| Info: [Pfeiffer TCP350]                            
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]   
+
+| Position: [20]                   
+| Crate Name: [C20210T] 
+| Info: [Pfeiffer TCP350]                            
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]      
+
+| Position: [20]                   
+| Crate Name: [XGM007] 
+| Info: [Gauge Contr.]                            
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]                                                                                                  
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                                   
+| Position: [20]                      
+| Crate Name: [Power Control]
+| Info: []                            
+| Crate Size in units: [3]                            
+| Loop: []                                       
+| Signals: [0]                                                                                  
+|------------------------------------------------------|

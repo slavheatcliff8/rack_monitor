@@ -1,0 +1,105 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [205]                     |
+|                                                      |
+|               XTD: [1]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------                                 
+| Position: [1]                                                                                
+| Crate Name: [duct (cooling)]                               
+| Crate Size in units: [1]                             
+| Loop: []                                       
+| Signals: [0] 
+
+| Position: [2]                                                                                
+| Crate Name: [C20501I]                               
+| Crate Size in units: [4]                             
+| Loop: [VAC]
+| Standart: [IPUMP_CONTR]                                       
+| Signals: [1]        
+| Signal1: [P20230I]
+| Signal2: [P20240I]
+| Signal3: [P20250I]
+| Signal4: [P20260I]      
+
+                                       
+| Position: [7]                                                      
+| Crate Name: [Turbo Pump Contr.(1)] 
+| Info: [TCP350 (not inst.)]                               
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [10]                                                      
+| Crate Name: [Turbo Pump Contr.(2)] 
+| Info: [TCP350 (not inst.)]                               
+| Crate Size in units: [3]                                
+| Loop: []                                          
+| Signals: [0] 
+
+| Position: [14]                                                      
+| Crate Name: [C20502V]  
+| Info: [Frontend]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [20]                                                      
+| Crate Name: [C20504E]  
+| Info: [Diff. Pumping]                                
+| Crate Size in units: [6]                                
+| Loop: [EPS]    
+| Standart: [no]                                        
+| Signals: [4] 
+| Signal1: [SA2_XS2_SYS/SWITCH/C20504E_T1OK]
+| Signal2: [SA2_XS2_SYS/SWITCH/C20504E_T2OK]
+| Signal3: [SA2_XS2_SYS/SWITCH/C20504E_T3BALOK]
+| Signal4: [SA2_XS2_SYS/SWITCH/C20504E_T3REDOK]  
+           
+                                         
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [C20503G]    
+| Info: [MKS Controller]                          
+| Crate Size in units: [2]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [14]                     
+| Crate Name: [Iseg MPOD]   
+| Info: [PES (not installed)]                        
+| Crate Size in units: [8]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [23]                     
+| Crate Name: [Power Control]                           
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]                   
+                      
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [10]                         
+| Crate Name: [Micro TCA]    
+| Info: [MKS Controller]                          
+| Crate Size in units: [9]                            
+| Loop: []                              
+| Signals: [0]                                           
+|------------------------------------------------------|

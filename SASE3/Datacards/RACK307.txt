@@ -1,0 +1,98 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [307]                     |
+|                                                      |
+|               XTD: [10]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------                                 
+| Position: [1]                                                                                
+| Crate Name: [C30701V]                               
+| Crate Size in units: [6]                             
+| Loop: [VAC]
+| Standart: [yes]                                       
+| Signals: [4] 
+
+| Position: [7]                                                                                
+| Crate Name: [C30702M]                               
+| Crate Size in units: [6]                             
+| Loop: [MOV]
+| Standart: [yes]                                       
+| Signals: [4]
+
+| Position: [13]                                                                                
+| Crate Name: [C30703E]                               
+| Crate Size in units: [6]                             
+| Loop: [EPS]
+| Standart: [yes]                                       
+| Signals: [4] 
+
+| Position: [23]                                                                                
+| Crate Name: [Power Control]                               
+| Crate Size in units: [3]                             
+| Loop: []                                   
+| Signals: [0]                                                     
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                      
+| Crate Name: [fire unit]                               
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0] 
+
+| Position: [2]                                                      
+| Crate Name: [network units]                               
+| Crate Size in units: [12]                                
+| Loop: []                                            
+| Signals: [0] 
+
+| Position: [15]                                                      
+| Crate Name: [cable maneg. MPOD]                               
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0] 
+
+| Position: [16]                                                      
+| Crate Name: [MPOD mini]                               
+| Crate Size in units: [2]                                
+| Loop: []                                            
+| Signals: [0]
+
+| Position: [18]                                                      
+| Crate Name: [heat/ventilation guide]                               
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0]  
+
+| Position: [19]                                                      
+| Crate Name: [cable maneg. MTCA]                               
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0] 
+
+| Position: [20]                                                      
+| Crate Name: [micro TCA]                               
+| Crate Size in units: [2]                                
+| Loop: []                                            
+| Signals: [0]
+
+| Position: [22]                                                      
+| Crate Name: [movable shelve for MTCA]                               
+| Crate Size in units: [1]                                
+| Loop: []                                            
+| Signals: [0]                   
+                      
+|------------------------------------------------------|
+

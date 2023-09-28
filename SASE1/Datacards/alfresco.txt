@@ -34,3 +34,7 @@ RACK117
 https://docs.xfel.eu/share/page/site/vacuum/document-details?nodeRef=workspace://SpacesStore/d0c74f0c-ef35-441a-8ca5-dfc22971e1bb
 RACK118
 https://docs.xfel.eu/share/page/site/vacuum/document-details?nodeRef=workspace://SpacesStore/09b529a6-77d6-4565-8304-3ef065938c8d
+EPLAN
+https://docs.xfel.eu/share/page/site/vacuum/document-details?nodeRef=workspace://SpacesStore/03280f8f-5f35-45e5-ab0d-45e4d9efe4f6
+ALLRACKS
+https://docs.xfel.eu/share/page/site/vacuum/documentlibrary#filter=path%7C%2FOperation%2FControl%2520System%2FDocumentation%2FRack%2520photos%2520for%2520Rack%2520Monitor%2FSASE1%7C&page=1

@@ -1,0 +1,219 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [223]                     |
+|                                                      |
+|               XTD: [6]                               |
+|                                                      |
+|          Number of Modules: [3]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [2]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [C22301I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P21270I]
+| Signal2: [P21290I]
+| Signal3: [P21300I]
+| Signal4: [P21330I]
+
+| Position: [1]                                                                               
+| Crate Name: [C22302I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P21280I]
+| Signal2: []
+| Signal3: [P21310I]
+| Signal4: []
+
+| Position: [5]                                                                               
+| Crate Name: [C22303I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P21320I]
+| Signal2: []
+| Signal3: []
+| Signal4: []
+
+| Position: [5]                                                                               
+| Crate Name: [C22304I]                            
+| Crate Size in units: [4]                             
+| Loop: [VAC] 
+| Standart: [IPUMP_CONTR]                                        
+| Signals: [1]
+| Signal1: [P22420I]
+| Signal2: [P22430I]
+| Signal3: [P22440I]
+| Signal4: [P22450I]
+
+| Position: [9]                                                                               
+| Crate Name: [C22308G]                          
+| Crate Size in units: [2]                             
+| Loop: []                                     
+| Signals: [0]  
+
+| Position: [9]                                                                               
+| Crate Name: [C22309G]                          
+| Crate Size in units: [2]                             
+| Loop: []                                     
+| Signals: [0]  
+
+| Position: [11]                                                                               
+| Crate Name: [C22310G]                          
+| Crate Size in units: [2]                             
+| Loop: []                                     
+| Signals: [0]  
+
+| Position: [13]                                                                               
+| Crate Name: [C22305V]                   
+| Crate Size in units: [4]                             
+| Loop: [VAC]  
+| Standart: [yes]                                       
+| Signals: [4] 
+
+| Position: [17]                                                                               
+| Crate Name: [C22307E]                   
+| Crate Size in units: [6]                             
+| Loop: [EPS]  
+| Standart: [yes]                                       
+| Signals: [4] 
+
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [C22306M]    
+| Info: [Pop-IN]                         
+| Crate Size in units: [6]                             
+| Loop: [MOV]
+| Standart: [yes]                                         
+| Signals: [4]   
+
+| Position: [7]                                                                               
+| Crate Name: [TDK Lambda]    
+| Info: [power supply]                         
+| Crate Size in units: [2]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [9]                                                                               
+| Crate Name: [Pikomotor Driver]                         
+| Crate Size in units: [3]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [12]                                                                               
+| Crate Name: [Pi Piezo Actuator]  
+| Info: [controller]                        
+| Crate Size in units: [3]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [15]                                                                               
+| Crate Name: [Power Supply 24V]                         
+| Crate Size in units: [1]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [16]                                                                               
+| Crate Name: [Power Supply 48V]                          
+| Crate Size in units: [1]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [17]                                                                               
+| Crate Name: [Fuse Box]                          
+| Crate Size in units: [3]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [23]                                                                               
+| Crate Name: [Power Control]                             
+| Crate Size in units: [3]                             
+| Loop: []                                         
+| Signals: [0] 
+|------------------------------------------------------|
+| Module: [3]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                             
+| Crate Size in units: [1]                             
+| Loop: []                                     
+| Signals: [0]   
+
+| Position: [2]                                                                               
+| Crate Name: [network]                         
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0] 
+
+| Position: [7]                                                                               
+| Crate Name: [BKF00485]    
+| Info: [MID Momo1]                         
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [7]                                                                               
+| Crate Name: [BKF00486]    
+| Info: [MID Momo1]                         
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0]
+
+| Position: [12]                                                                               
+| Crate Name: [BKF00277]    
+| Info: [lens 1-4]                         
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [12]                                                                               
+| Crate Name: [BKF00278]    
+| Info: [lens 5-8]                           
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0]
+
+| Position: [17]                                                                               
+| Crate Name: [BKF00279]    
+| Info: [lens 9 - chamY]                         
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [17]                                                                               
+| Crate Name: [BKF00280]    
+| Info: [PT100]                           
+| Crate Size in units: [5]                             
+| Loop: []                                        
+| Signals: [0]
+
+| Position: [22]                                                                               
+| Crate Name: [Cooling - Fan unit]                          
+| Crate Size in units: [1]                             
+| Loop: []                                        
+| Signals: [0] 
+
+| Position: [23]                                                                               
+| Crate Name: [Cooling - Air in unit]                          
+| Crate Size in units: [2]                             
+| Loop: []                                        
+| Signals: [0] 
+|------------------------------------------------------|
+

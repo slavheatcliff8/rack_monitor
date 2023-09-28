@@ -1,0 +1,147 @@
+--------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [203]                     |
+|                                                      |
+|               XTD: [1]                               |
+|                                                      |
+|          Number of Modules: [2]                      |
+|                                                      |
+|         Slots per Module: [42]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [duct (cooling)]                                
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [C20301I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]  
+| Standart: [IPUMP_CONTR]                                         
+| Signals: [1]        
+| Signal1: [P20140I]
+| Signal2: [P20150I]
+| Signal3: [P20160I]
+| Signal4: [P20170I]      
+
+| Position: [2]                                                                               
+| Crate Name: [C20302I]                                
+| Crate Size in units: [4]                             
+| Loop: [VAC]  
+| Standart: [IPUMP_CONTR]                                         
+| Signals: [1]        
+| Signal1: [P20180I]
+| Signal2: [P20190I]
+| Signal3: []
+| Signal4: []      
+ 
+                                 
+| Position: [6]                                                                                
+| Crate Name: [C20308G]   
+| Info: [MKS Controller]                              
+| Crate Size in units: [2]                             
+| Loop: []                                       
+| Signals: [0] 
+                                       
+| Position: [8]                                                      
+| Crate Name: [C20303V]  
+| Info: [Beamline, CRL, Solid attenuator]                                
+| Crate Size in units: [6]                                
+| Loop: [VAC]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [14]                                                      
+| Crate Name: [C20307E]  
+| Info: [Solid attenuator]                                
+| Crate Size in units: [6]                                
+| Loop: [EPS]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+| Position: [20]                                                      
+| Crate Name: [C20304M]  
+| Info: [Solid attenuator]                                
+| Crate Size in units: [6]                                
+| Loop: [MOV]    
+| Standart: [yes]                                        
+| Signals: [4] 
+
+
+| Position: [37]                                                      
+| Crate Name: [Power Control]                                   
+| Crate Size in units: [3]                                
+| Loop: []                                        
+| Signals: [0]               
+                                         
+|------------------------------------------------------|
+| Module: [2]                                          |
+|------------------------------------------------------|
+| Position: [1]                         
+| Crate Name: [fire unit (cooling)]                            
+| Crate Size in units: [1]                            
+| Loop: []                              
+| Signals: [0]  
+                      
+| Position: [19]                     
+| Crate Name: [Power Supply 24V]                      
+| Crate Size in units: [1]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [20]                     
+| Crate Name: [Fuse Box]                           
+| Crate Size in units: [3]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [23]                     
+| Crate Name: [BKF00281] 
+| Info: [lens 1-4]                            
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [23]                     
+| Crate Name: [BKF00282] 
+| Info: [lens 5-8]                            
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [28]                     
+| Crate Name: [BKF00283] 
+| Info: [lens 9 - chamY]                            
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0]  
+
+| Position: [28]                     
+| Crate Name: [BKF00284] 
+| Info: [PT100's MID and HED]                            
+| Crate Size in units: [5]                       
+| Loop: []                                        
+| Signals: [0]  
+                               
+| Position: [33]                     
+| Crate Name: [Cooling - Fan unit]                             
+| Crate Size in units: [1]                             
+| Loop: []                                     
+| Signals: [0] 
+                                   
+| Position: [34]                     
+| Crate Name: [Cooling - Air in unit]                             
+| Crate Size in units: [2]                             
+| Loop: []                                     
+| Signals: [0]                                              |
+|------------------------------------------------------|

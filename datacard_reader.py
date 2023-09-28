@@ -19,8 +19,8 @@ def group_devices_by_position(device_vectors):
 
     return grouped_vectors
 # Создаем список для хранения данных векторов
-def reader_data_cards(rack_name):
-    file_path = f"SASE1/Datacards/RACK{rack_name}.txt"
+def reader_data_cards(rack_name,sase):
+    file_path = f"SASE{sase}/Datacards/RACK{rack_name}.txt"
     device_vectors = []
 
 # Читаем данные из файла
@@ -96,17 +96,18 @@ def reader_data_cards(rack_name):
         if line.strip().startswith("| Standart: "):
             standart = line.split("[")[1].split("]")[0].strip()
         
-        signals = ""
+        
         if line.strip().startswith("| Signals: "):
 
             signals = line.split("[")[1].split("]")[0].strip()
             device_vector.append(signals)
-        
+            
             device_vector.append(standart)
             if (standart == "yes") : 
                 device_vectors.append(device_vector)
                 device_vector = []
                 standart = "yes"
+                signals = ""
             
             
         signal = ""
@@ -133,10 +134,11 @@ def reader_data_cards(rack_name):
             signal = line.split("[")[1].split("]")[0].strip()
         
             device_vector.append(signal)  
-            if signals == "4" or standart== "IPUMP_CONTR" or standart== "FASTVALVE_CONTR" :
+            if (signals == "4") or (standart== "IPUMP_CONTR") or (standart== "FASTVALVE_CONTR") :
                 device_vectors.append(device_vector)
-                device_vector = [] 
+                device_vector = []
                 standart = "yes"
+                signals = ""
     
         
         signal = ""
@@ -147,6 +149,7 @@ def reader_data_cards(rack_name):
             device_vectors.append(device_vector)  
             device_vector = [] 
             standart = "yes"
+            signals = ""
            
     
     

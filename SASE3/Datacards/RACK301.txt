@@ -1,0 +1,64 @@
+-------------------------------------------------------
+|                    DATA CARD                         |
+--------------------------------------------------------
+|                                                      |
+|                [European XFEL]                       |
+|                                                      |
+|               Rack Number: [301]                     |
+|                                                      |
+|               XTD: [10]                              |
+|                                                      |
+|          Number of Modules: [1]                      |
+|                                                      |
+|         Slots per Module: [25]                       |
+|                                                      |
+|         Cooling Module Position: [1]                 |
+|                                                      |
+|------------------------------------------------------|
+| Module: [1]                                          |
+|------------------------------------------------------|
+| Position: [1]                                                                               
+| Crate Name: [fire unit]                              
+| Crate Size in units: [1]                             
+| Loop: []                                         
+| Signals: [0]
+                                        
+| Position: [2]                                                                               
+| Crate Name: [netork modules]                                
+| Crate Size in units: [5]                             
+| Loop: []                                         
+| Signals: [0]
+
+| Position: [14]                                                                               
+| Crate Name: [C30102F] 
+| Info: [(1/2)]                               
+| Crate Size in units: [3]                             
+| Loop: [VAC]                                      
+| Standart: [FASTVALVE_CONTR]                                    
+| Signals: [1]        
+| Signal1: [SA3_XTD10_VAC/SWITCH/C30102F_VAT14_READY]
+| Signal2: []
+| Signal3: []
+| Signal4: []         
+
+| Position: [17]                                                                               
+| Crate Name: [C30102F] 
+| Info: [(2/2)]                               
+| Crate Size in units: [3]                             
+| Loop: [VAC]                                      
+| Standart: [FASTVALVE_CONTR]                                    
+| Signals: [1]        
+| Signal1: [SA3_XTD10_VAC/SWITCH/C30102F_VAT24_READY]
+| Signal2: []
+| Signal3: []
+| Signal4: []       
+                   
+| Position: [20]                                                                                
+| Crate Name: [C30103V]     
+| Info: [+C30104E (1 supplier)]                         
+| Crate Size in units: [5]                             
+| Loop: [VAC]     
+| Standart: [yes]                                   
+| Signals: [4]                                                      
+|------------------------------------------------------|
+

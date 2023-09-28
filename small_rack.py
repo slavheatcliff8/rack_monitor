@@ -2,8 +2,8 @@ import random
 import os
 
 
-def link_for_alfresco(rack_name): 
-    file_path = f"SASE1/Datacards/alfresco.txt"
+def link_for_alfresco(rack_name,sase): 
+    file_path = f"SASE{sase}/Datacards/alfresco.txt"
     link = ""
     with open(file_path, "r") as file:
             data_card = file.read()
@@ -24,13 +24,24 @@ def colour_of_crates (n,l):
 
     return (a)
 
+def colour_of_sase (sase):
+    a = ""
+    if sase == 1: 
+        a = "#c3d2e9"
+    if sase == 2: 
+        a = "#e9d2c8"
+    if sase == 3: 
+        a = "#c8dac8"
+    
+    return (a)
+
 def make_scene(device_vectors, rack_vector, grouped_vectors,link_for_rack,device_with_info, sase,mode,version):
     cool_name = ['c','o','o','l','i','n','g',' ','u','n','i','t']
     name_of_rack = rack_vector[0]
     name_of_rack_mode = name_of_rack[:1] + "." + name_of_rack[1:]
     name_of_xtd = rack_vector[1]
     name_of_sase = "SASE"+f"{sase}"
-    if os.path.exists(f"SASE1/Scene/{version}"):
+    if os.path.exists(f"SASE{sase}/Scene/{version}"):
         name_of_scene = f"SASE{sase}/Scene/{version}/RACK{name_of_rack}"+".svg"
     else:
         os.mkdir(f"SASE{sase}/Scene/{version}/")
@@ -43,7 +54,7 @@ def make_scene(device_vectors, rack_vector, grouped_vectors,link_for_rack,device
     width_of_the_cool_module = 30 #cooling module between the modules
     height_of_the_slot = 23 #slot in rack 
     height_of_the_logo = 71
-    height_of_the_free_space = 100 
+    height_of_the_free_space = 50 
     width_of_the_free_space = 200
     number_of_modules = int(rack_vector[2])
     number_of_slots = int(rack_vector[3])
@@ -55,7 +66,7 @@ def make_scene(device_vectors, rack_vector, grouped_vectors,link_for_rack,device
     link_for_rack.append (f"RACK{name_of_rack}:{uuid}b5d4e-{uuid}b-4460-bba3-11a99d8ddbdc")
     file.write(f"<svg:svg xmlns:krb=\"http://karabo.eu/scene\" xmlns:svg=\"http://www.w3.org/2000/svg\" krb:version=\"2\" krb:uuid=\"{uuid}b5d4e-{uuid}b-4460-bba3-11a99d8ddbdc\" height=\"{height_of_the_scene}\" width=\"{width_of_the_scene}\">")
     #head with logo and name of SASE and RACK 
-    file.write(f"<svg:rect stroke=\"#000000\" stroke-opacity=\"1.0\" stroke-linecap=\"butt\" stroke-dashoffset=\"0.0\" stroke-width=\"1.0\" stroke-dasharray=\"\" stroke-style=\"1\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4.0\" fill=\"#c3d2e9\" fill-opacity=\"1.0\" x=\"35\" y=\"17.5\" width=\"{width_of_the_logo}\" height=\"{height_of_the_logo}\" />")
+    file.write(f"<svg:rect stroke=\"#000000\" stroke-opacity=\"1.0\" stroke-linecap=\"butt\" stroke-dashoffset=\"0.0\" stroke-width=\"1.0\" stroke-dasharray=\"\" stroke-style=\"1\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4.0\" fill=\"{colour_of_sase(sase)}\" fill-opacity=\"1.0\" x=\"35\" y=\"17.5\" width=\"{width_of_the_logo}\" height=\"{height_of_the_logo}\" />")
     file.write(f"<svg:rect krb:class=\"Label\" x=\"120\" y=\"25\" width=\"400\" height=\"60\" krb:text=\"{name_of_sase}            RACK {name_of_rack_mode}\" krb:font=\"Source Sans Pro,25,-1,5,75,0,0,0,0,0\" krb:foreground=\"#000000\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
     #XFEL LABEL 
     file.write(f"<svg:g krb:class=\"FixedLayout\" krb:x=\"47\" krb:y=\"25\" krb:height=\"30\" krb:width=\"30\">")
@@ -104,9 +115,9 @@ def make_scene(device_vectors, rack_vector, grouped_vectors,link_for_rack,device
     file.write(f"<svg:rect krb:class=\"Label\" x=\"{legend_x+5}\" y=\"{legend_y+120}\" width=\"130\" height=\"20\" krb:text=\"E - EPS crate\" krb:font=\"Source Serif Pro,8,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")  
     file.write(f"<svg:rect krb:class=\"Label\" x=\"{legend_x+5}\" y=\"{legend_y+140}\" width=\"130\" height=\"20\" krb:text=\"F - Fast Valve Controller\" krb:font=\"Source Serif Pro,8,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")  
     file.write(f"<svg:rect krb:class=\"Label\" x=\"{legend_x+5}\" y=\"{legend_y+160}\" width=\"130\" height=\"20\" krb:text=\"4U - Size of crate\" krb:font=\"Source Serif Pro,8,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />") 
-    link_in_alfresco = link_for_alfresco ("RACK"+f"{name_of_rack}")
+    link_in_alfresco = link_for_alfresco ("RACK"+f"{name_of_rack}",sase)
     file.write (f"<svg:rect krb:class=\"WebLink\" x=\"{legend_x}\" y=\"{legend_y + legend_height + 10}\" width=\"{legend_width}\" height=\"50\" krb:target=\"{link_in_alfresco}\" krb:text=\"Photo of rack\" krb:font=\"Source Sans Pro,11,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"3\" krb:background=\"transparent\" krb:alignh=\"4\" />")
-    eplan_in_alfresco = "https://docs.xfel.eu/share/page/site/vacuum/document-details?nodeRef=workspace://SpacesStore/03280f8f-5f35-45e5-ab0d-45e4d9efe4f6"
+    eplan_in_alfresco = link_for_alfresco ("EPLAN",sase)
     file.write (f"<svg:rect krb:class=\"WebLink\" x=\"{legend_x}\" y=\"{legend_y + legend_height + 70}\" width=\"{legend_width}\" height=\"50\" krb:target=\"{eplan_in_alfresco}\" krb:text=\"Eplan for rack\" krb:font=\"Source Sans Pro,11,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"3\" krb:background=\"transparent\" krb:alignh=\"4\" />")
     #construction of cooling module 
    
@@ -132,6 +143,7 @@ def make_scene(device_vectors, rack_vector, grouped_vectors,link_for_rack,device
         double = "no"
         shift_x = 0
         for group in grouped_vectors:
+            group[2].sort()
             for p in group[2]:
              if (number_of_module == int(group [0]) and position_of_device == int(group[1]) and name_of_device in group[2]):
                     double = "yes"
@@ -143,18 +155,18 @@ def make_scene(device_vectors, rack_vector, grouped_vectors,link_for_rack,device
                          size_of_the_shrift = 5
         if double == "yes":
                file.write(f"<svg:rect stroke=\"#000000\" stroke-opacity=\"1.0\" stroke-linecap=\"butt\" stroke-dashoffset=\"0.0\" stroke-width=\"1.0\" stroke-dasharray=\"\" stroke-style=\"1\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4.0\" fill=\"{colour_of_crate}\" x=\"{x_crate+shift_x}\" y=\"{y_crate}\" width=\"{width_of_the_module/len(best)}\" height=\"{height_of_the_crate}\" />")
-               file.write(f"<svg:rect krb:class=\"Label\" x=\"{round(x_crate + shift_x + round(0.05*width_of_the_module/len(best)))}\" y=\"{y_crate + round(0.15*height_of_the_slot*size_of_device)}\" width=\"210\" height=\"20\" krb:text=\"{name_of_device}," ",{size_of_device}U\" krb:font=\"Source Serif Pro,11,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
+               file.write(f"<svg:rect krb:class=\"Label\" x=\"{round(x_crate + shift_x + round(0.05*width_of_the_module/len(best)))}\" y=\"{y_crate + round(0.05*height_of_the_slot*size_of_device)}\" width=\"210\" height=\"20\" krb:text=\"{name_of_device},  {size_of_device}U\" krb:font=\"Source Serif Pro,11,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
                if device[2] in device_with_info:
                     index1 = device_with_info.index(device[2])
-                    file.write(f"<svg:rect krb:class=\"Label\" x=\"{round(x_crate + shift_x + round(0.05*width_of_the_module/len(best)))}\" y=\"{y_crate + round(0.15*height_of_the_slot*size_of_device)+20}\" width=\"280\" height=\"20\" krb:text=\"{device_with_info[index1+1]}\" krb:font=\"Source Serif Pro,9,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
+                    file.write(f"<svg:rect krb:class=\"Label\" x=\"{round(x_crate + shift_x + round(0.05*width_of_the_module/len(best)))}\" y=\"{y_crate + round(0.05*height_of_the_slot*size_of_device)+20}\" width=\"280\" height=\"20\" krb:text=\"{device_with_info[index1+1]}\" krb:font=\"Source Serif Pro,9,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
                     device_with_info.remove(device_with_info[index1])
                     device_with_info.remove(device_with_info[index1])        
         else: 
                 file.write(f"<svg:rect stroke=\"#000000\" stroke-opacity=\"1.0\" stroke-linecap=\"butt\" stroke-dashoffset=\"0.0\" stroke-width=\"1.0\" stroke-dasharray=\"\" stroke-style=\"1\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4.0\" fill=\"{colour_of_crate}\" x=\"{x_crate}\" y=\"{y_crate}\" width=\"{width_of_the_module}\" height=\"{height_of_the_crate}\" />")
-                file.write(f"<svg:rect krb:class=\"Label\" x=\"{round(x_crate + round(0.05*width_of_the_module))}\" y=\"{y_crate + round(0.15*height_of_the_slot*size_of_device)}\" width=\"280\" height=\"20\" krb:text=\"{name_of_device},{size_of_device}U\" krb:font=\"Source Serif Pro,11,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
+                file.write(f"<svg:rect krb:class=\"Label\" x=\"{round(x_crate + round(0.05*width_of_the_module))}\" y=\"{y_crate + round(0.05*height_of_the_slot*size_of_device)}\" width=\"280\" height=\"20\" krb:text=\"{name_of_device}, {size_of_device}U\" krb:font=\"Source Serif Pro,11,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
                 if device[2] in device_with_info:
                     index1 = device_with_info.index(device[2])
-                    file.write(f"<svg:rect krb:class=\"Label\" x=\"{round(x_crate + round(0.05*width_of_the_module))}\" y=\"{y_crate + round(0.15*height_of_the_slot*size_of_device)+20}\" width=\"280\" height=\"20\" krb:text=\"{device_with_info[index1+1]}\" krb:font=\"Source Serif Pro,11,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
+                    file.write(f"<svg:rect krb:class=\"Label\" x=\"{round(x_crate + round(0.05*width_of_the_module))}\" y=\"{y_crate + round(0.05*height_of_the_slot*size_of_device)+20}\" width=\"280\" height=\"20\" krb:text=\"{device_with_info[index1+1]}\" krb:font=\"Source Serif Pro,11,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")
                     device_with_info.remove(device_with_info[index1])
                     device_with_info.remove(device_with_info[index1])
 #signals 
@@ -182,7 +194,7 @@ def make_scene(device_vectors, rack_vector, grouped_vectors,link_for_rack,device
                 file.write(f"<svg:rect krb:class=\"DisplayComponent\" krb:widget=\"Lamp\" krb:keys=\"{device[8]}.state\" x=\"{x_crate + 40 + 2*round((width_of_the_module - number_of_signals*40)/(number_of_signals+1)) }\" y=\"{y_crate + height_of_the_crate - 2 * height_of_the_slot}\" width=\"40\" height=\"40\" />")
                 file.write(f"<svg:rect krb:class=\"DisplayComponent\" krb:widget=\"Lamp\" krb:keys=\"{device[9]}.state\" x=\"{x_crate + 80 + 3*round((width_of_the_module - number_of_signals*40)/(number_of_signals+1)) }\" y=\"{y_crate + height_of_the_crate - 2 * height_of_the_slot}\" width=\"40\" height=\"40\" />")
                 file.write(f"<svg:rect krb:class=\"DisplayComponent\" krb:widget=\"Lamp\" krb:keys=\"{device[10]}.state\" x=\"{x_crate + 120 +4*round((width_of_the_module - number_of_signals*40)/(number_of_signals+1)) }\" y=\"{y_crate + height_of_the_crate - 2 * height_of_the_slot }\" width=\"40\" height=\"40\" />")
-                file.write(f"<svg:rect krb:class=\"DisplayComponent\" krb:widget=\"Lamp\" krb:keys=\"{device[11]}.state\" x=\"{x_crate + 120 +4*round((width_of_the_module - number_of_signals*40)/(number_of_signals+1)) }\" y=\"{y_crate + height_of_the_crate - 2 * height_of_the_slot }\" width=\"40\" height=\"40\" />")
+                file.write(f"<svg:rect krb:class=\"DisplayComponent\" krb:widget=\"Lamp\" krb:keys=\"{device[11]}.state\" x=\"{x_crate + 160 +5*round((width_of_the_module - number_of_signals*40)/(number_of_signals+1)) }\" y=\"{y_crate + height_of_the_crate - 2 * height_of_the_slot }\" width=\"40\" height=\"40\" />")
             x_lamp = x_crate +width_of_the_module - 2*height_of_the_slot 
             y_lamp = y_crate + 0.3*height_of_the_slot
             file.write(f"<svg:rect krb:class=\"Label\" x=\"{x_lamp - 50}\" y=\"{y_lamp +10}\" width=\"280\" height=\"20\" krb:text=\"OK:\" krb:font=\"Source Serif Pro,15,-1,5,75,0,0,0,0,0\" krb:foreground=\"\" krb:frameWidth=\"0\" krb:background=\"transparent\" />")            
