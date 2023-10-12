@@ -6,7 +6,7 @@ import re
 import hashlib
 import os
 sg.theme('Default1')   # Add a touch of color
-# All the stuff inside your window.
+# Configuration of the interface of the program 
 layout = [              [sg.Text(text = "--------------------------------------------", font=('Arial', 40), justification='center')],
             [sg.Text(text='Rack Monitor Maker', font=('Arial Bold', 30),
                 size=20, expand_x=True,
@@ -29,13 +29,15 @@ layout = [              [sg.Text(text = "---------------------------------------
             [sg.Input(key='version', size = (40,60), font = ('Arial', 12), justification='center')],
             [sg.Text(text = "", font=('Arial', 12),)],
             [sg.Submit(),sg.Cancel()] ]
+
 sase = 0
 mode = 0
+
 # Create the Window
 window = sg.Window('RACK MONITOR', layout)
 
 
-# Event Loop to process "events" and get the "values" of the inputs
+# reading of the input information from interface input 
 while True:
     event, values = window.read()
     text = values[1][0]
@@ -69,24 +71,64 @@ while True:
         break
 
 window.close()
+print ('%+=============================================================================%')
+print ('%.                                                                             #')
+print ('%.    ........................................  ................  ........     #')
+print ('%.   -%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  *%%%%%%%%%%%%%%*  ++++++++=    #')
+print ('%.   -%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  *%%%%%%%%%%%%%%*  ++++++++=    #')
+print ('%.   .----------------------------------------  :--------------:  ::::::::.    #')
+print (f'%.   VERSION: {version}                                                              #')
+print (f'%.   SASE: {sase}                                                                   #')
+print ('%.                                                                             #')
+print ('%.                                                                             #')
+print ('%.                                                                             #')
+print ('%.                                                                             #')
+print ('%.                                                                             #')
+print ('%.                                                                             #')
+print ('%.                                                                             #')
+print ('%.                                                                             #')
+print ('%.                                                                             #')
+print ('%.   -%%%%%%+                                                                  #')
+print ('%.   -%+      =-  :=: -=.=- -=+=:  =-=+=-   -=+=.  -=++=. -=:=+=.              #')
+print ('%.   -%#****. %*  =%- *%+:.##: :%* %#. -%# ##-:+%-.=-.-%* *%-..%#              #')
+print ('%.   -%+      %*  +%- *%.  %#   %# %*  .%%.%#---=--%+--%* *%   ##              #')
+print ('%.   -######+ =#*++#- +#   :**+*+. %#++#*: :**+*+ -#*=+#+ +#   *#              #')
+print ('%.                                 %*                                          #')
+print ('%.                                                                             #')
+print ('%.    +####:      +####- :#############*  *#############%.  *###*              #')
+print ('%.     =%%%%-   .#%%%#.  :%%%%#########*  #%%%%#########%.  #%%%#              #')
+print ('%.      :#%%%+ :%%%%=    :%%%%            #%%%=             #%%%#              #')
+print ('%.        #%%%#%%%#:     :%%%%            #%%%=             #%%%#              #')
+print ('%.         +%%%%%*.      :%%%%========:   #%%%#*********:   #%%%#              #')
+print ('%.         =%%%%%+       :%%%%%%%%%%%%+   #%%%%%%%%%%%%%-   #%%%#              #')
+print ('%.        *%%%%%%%#.     :%%%%:.......    #%%%=             #%%%#              #')
+print ('%.      :#%%%+ +%%%%=    :%%%%            #%%%=             #%%%#              #')
+print ('%.     =%%%%-   -%%%%#.  :%%%%            #%%%*==========:  #%%%#=========-    #')
+print ('%.    *%%%#.     :#%%%%- :%%%%            #%%%%%%%%%%%%%%=  #%%%%%%%%%%%%%*    #')
+print ('%.   :----         -----..----            :--------------.  :-------------:    #')
+print ('%.                                                                             #')
 sase_vector = []
 link_for_rack = []
+if os.path.exists(f"SASE{sase}/Scene"):
+    pass
+else:
+    os.mkdir(f"SASE{sase}/Scene")
 for rack_name in numbers:
     #reading the datacards from the list: 
     device_vectors, rack_vector, device_with_info = datacard_reader.reader_data_cards(rack_name,sase)
     # check, if there are two or more devices with one position 
     grouped_vectors = datacard_reader.group_devices_by_position(device_vectors)
-    print ("##########################################################################")
-    print ("/////////////////////////////Rack",rack_name,"/////////////////////////////")
-    print ("##########################################################################")
+    print ("################################################################################")
+    print ("////////////////////////////////////Rack",rack_name,"///////////////////////////////////")
+    print ("################################################################################")
     for device in device_vectors: 
         print (device) 
-    print ("/////////////////////////////////////////////////////////////////////////")
-    print ("/////////////////////////////Double devices//////////////////////////////")
-    print ("/////////////////////////","                      ","////////////////////////")
+    print ("////////////////////////////////////////////////////////////////////////////////")
+    print ("////////////////////////////////Double devices/////////////////////////////////")
+    print ("////////////////////////////","                      ","///////////////////////////")
     for group in grouped_vectors: 
         group[2].sort()
-        print ("/////////////////////////",group[2],"////////////////////////") 
+        print ("////////////////////////////",group[2],"///////////////////////////") 
     # making a small rack monitors for all rack in the list + links for a overview monitor     
     
     link_for_rack = small_rack.make_scene(device_vectors, rack_vector,grouped_vectors,link_for_rack,device_with_info, sase, mode, version)
@@ -96,7 +138,7 @@ for rack_name in numbers:
  # maiking an overview scene 
 if (mode == 2) or (mode == 3):
     overview_maker.scene_maker(sase_vector,link_for_rack,sase,version)
-print ("##########################################################################")
-print ("///////////////////////////////////DONE///////////////////////////////////")
-print ("##########################################################################")
 
+print ("################################################################################")
+print ("//////////////////////////////////////DONE//////////////////////////////////////")
+print ("################################################################################")
